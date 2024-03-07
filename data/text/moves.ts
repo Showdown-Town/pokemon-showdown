@@ -533,14 +533,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	blizzard: {
 		name: "Blizzard",
 		desc: "Has a 10% chance to frostbite the target. If the weather is Snow, this move does not check accuracy.",
-		shortDesc: "10% chance to freeze foe(s). Can't miss in Snow.",
+		shortDesc: "10% chance to frostbite foe(s). Can't miss in Snow.",
 		gen8: {
 			desc: "Has a 10% chance to frostbite the target. If the weather is Hail, this move does not check accuracy.",
-			shortDesc: "10% chance to freeze foe(s). Can't miss in Hail.",
+			shortDesc: "10% chance to frostbite foe(s). Can't miss in Hail.",
 		},
 		gen3: {
 			desc: "Has a 10% chance to frostbite the target.",
-			shortDesc: "10% chance to freeze foe(s).",
+			shortDesc: "10% chance to frostbite foe(s).",
 		},
 		gen2: {
 			shortDesc: "10% chance to frostbite the target.",
@@ -4753,7 +4753,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	powdersnow: {
 		name: "Powder Snow",
 		desc: "Has a 10% chance to frostbite the target.",
-		shortDesc: "10% chance to freeze the foe(s).",
+		shortDesc: "10% chance to frostbite the foe(s).",
 		gen2: {
 			shortDesc: "10% chance to frostbite the target.",
 		},
@@ -5277,8 +5277,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	roaroftime: {
 		name: "Roar of Time",
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-		shortDesc: "User cannot move next turn.",
+		shortDesc: "Cannot be selected the turn after it's used.",
 	},
 	rockblast: {
 		name: "Rock Blast",
@@ -6059,8 +6058,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	spacialrend: {
 		name: "Spacial Rend",
-		desc: "Has a higher chance for a critical hit.",
-		shortDesc: "High critical hit ratio.",
+		desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+		shortDesc: "Always results in a critical hit.",
 	},
 	spark: {
 		name: "Spark",
@@ -7019,10 +7018,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	triattack: {
 		name: "Tri Attack",
-		desc: "Has a 20% chance to either burn, freeze, or paralyze the target.",
-		shortDesc: "20% chance to paralyze or burn or freeze target.",
+		desc: "Has a 20% chance to either burn, frostbite, or paralyze the target.",
+		shortDesc: "20% chance to paralyze or burn or frostbite target.",
 		gen2: {
-			desc: "This move selects burn, freeze, or paralysis at random, and has a 20% chance to inflict the target with that status. If the target is frozen and burn was selected, it thaws out.",
+			desc: "This move selects burn, frostbite, or paralysis at random, and has a 20% chance to inflict the target with that status. If the target is frozen and burn was selected, it thaws out.",
 		},
 		gen1: {
 			desc: "No additional effect.",
