@@ -352,21 +352,43 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 4,
 	},
-	battlebond: {
-		onSourceAfterFaint(length, target, source, effect) {
-			if (effect?.effectType !== 'Move') return;
-			if (source.abilityState.battleBondTriggered) return;
-			if (source.species.id === 'greninjabond' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
-				this.boost({atk: 1, spa: 1, spe: 1}, source, source, this.effect);
-				this.add('-activate', source, 'ability: Battle Bond');
-				source.abilityState.battleBondTriggered = true;
-			}
-		},
-		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
-		name: "Battle Bond",
-		rating: 3.5,
-		num: 210,
+	///battlebond: {
+		///onSourceAfterFaint(length, target, source, effect) {
+			///if (effect?.effectType !== 'Move') return;
+			///if (source.abilityState.battleBondTriggered) return;
+///			if (source.species.id === 'greninjabond' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
+	///			this.boost({atk: 1, spa: 1, spe: 1}, source, source, this.effect);
+		///		this.add('-activate', source, 'ability: Battle Bond');
+		///		source.abilityState.battleBondTriggered = true;
+		///	}
+///		},
+///		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
+///		name: "Battle Bond",
+///		rating: 3.5,
+///		num: 210,
+///	},
+battlebond: {
+	onSourceAfterFaint(length, target, source, effect) {
+		if (effect?.effectType !== 'Move') {
+			return;
+		}
+		if (source.species.id === 'greninja' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
+			this.add('-activate', source, 'ability: Battle Bond');
+			source.formeChange('Greninja-Ash', this.effect, true);
+		}
 	},
+	onModifyMovePriority: -1,
+	onModifyMove(move, attacker) {
+		if (move.id === 'watershuriken' && attacker.species.name === 'Greninja-Ash' &&
+			!attacker.transformed) {
+			move.multihit = 3;
+		}
+	},
+	isPermanent: true,
+	name: "Battle Bond",
+	rating: 4,
+	num: 210,
+},
 	beadsofruin: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
@@ -1525,11 +1547,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	galewings: {
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.type === 'Flying' && pokemon.hp === pokemon.maxhp) return priority + 1;
+			if (move?.type === 'Flying') return priority + 1;
 		},
-		flags: {},
 		name: "Gale Wings",
-		rating: 1.5,
+		rating: 2.5,
 		num: 177,
 	},
 	galvanize: {

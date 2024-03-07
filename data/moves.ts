@@ -3562,7 +3562,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Defog",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1, metronome: 1},
+		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1, metronome: 1, wind: 1},
 		onHit(target, source, move) {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
@@ -5983,7 +5983,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	flipturn: {
 		num: 812,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 70,
 		category: "Physical",
 		name: "Flip Turn",
 		pp: 20,
@@ -12224,7 +12224,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Milk Drink",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		heal: [1, 2],
@@ -12664,7 +12664,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Moonlight",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		onHit(pokemon) {
@@ -12701,7 +12701,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Morning Sun",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		onHit(pokemon) {
@@ -15102,13 +15102,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 	ragefist: {
 		num: 889,
 		accuracy: 100,
-		basePower: 50,
-		basePowerCallback(pokemon) {
-			return Math.min(350, 50 + 50 * pokemon.timesAttacked);
+		basePower: 130,
+		self: {
+			boosts: {
+				atk: -2,
+			},
 		},
 		category: "Physical",
 		name: "Rage Fist",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: null,
@@ -15340,7 +15342,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Recover",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		heal: [1, 2],
@@ -15501,7 +15503,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Rest",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		onTry(source) {
@@ -16200,7 +16202,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 40,
 		category: "Physical",
 		name: "Salt Cure",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		condition: {
@@ -16331,7 +16333,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	scald: {
 		num: 503,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 70,
 		category: "Special",
 		name: "Scald",
 		pp: 15,
@@ -16976,7 +16978,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Shore Up",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		onHit(pokemon) {
@@ -17465,7 +17467,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Slack Off",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		heal: [1, 2],
@@ -17878,7 +17880,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Soft-Boiled",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		heal: [1, 2],
@@ -19455,7 +19457,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Synthesis",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
 		onHit(pokemon) {
@@ -21605,8 +21607,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		noSketch: true,
 		secondary: {
-			chance: 10,
-			status: 'slp',
+			chance: 20,
+			volatileStatus: 'flinch',
 		},
 		target: "normal",
 		type: "Dark",
