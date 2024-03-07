@@ -629,7 +629,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	hadronengine: {
 		name: "Hadron Engine",
-		shortDesc: "On switch-in, summons Electric Terrain. During Electric Terrain, Sp. Atk is 1.3333x.",
+		shortDesc: "On switch-in, summons Electric Terrain. During Electric Terrain, Sp. Atk is 1.1x.",
 
 		start: "  [POKEMON] turned the ground into Electric Terrain, energizing its futuristic engine!",
 		activate: "  [POKEMON] used the Electric Terrain to energize its futuristic engine!",
@@ -1159,7 +1159,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	orichalcumpulse: {
 		name: "Orichalcum Pulse",
-		shortDesc: "On switch-in, summons Sunny Day. During Sunny Day, Attack is 1.3333x.",
+		shortDesc: "On switch-in, summons Sunny Day. During Sunny Day, Attack is 1.1x.",
 
 		start: "  [POKEMON] turned the sunlight harsh, sending its ancient pulse into a frenzy!",
 		activate: "  [POKEMON] basked in the sunlight, sending its ancient pulse into a frenzy!",

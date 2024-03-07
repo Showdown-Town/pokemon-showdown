@@ -1725,10 +1725,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifySpA(atk, attacker, defender, move) {
 			if (this.field.isTerrain('electricterrain')) {
 				this.debug('Hadron Engine boost');
-				return this.chainModify([5461, 4096]);
+				return this.chainModify([11, 10]);
 			}
 		},
-		flags: {},
 		name: "Hadron Engine",
 		rating: 4.5,
 		num: 289,
@@ -2990,10 +2989,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyAtk(atk, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
 				this.debug('Orichalcum boost');
-				return this.chainModify([5461, 4096]);
+				return this.chainModify([11, 10]);
 			}
 		},
-		flags: {},
 		name: "Orichalcum Pulse",
 		rating: 4.5,
 		num: 288,
