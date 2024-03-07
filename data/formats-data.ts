@@ -4270,7 +4270,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	decidueyehisui: {
 //		isNonstandard: "Unobtainable",
-		tier: "PU",
+		tier: "LU",
 		natDexTier: "RU",
 	},
 	litten: {
