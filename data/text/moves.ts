@@ -6165,8 +6165,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	spinout: {
 		name: "Spin Out",
-		desc: "Lowers the user's Speed by 2 stages.",
-		shortDesc: "Lowers the user's Speed by 2.",
+		desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field.",
+		shortDesc: "Free user from hazards/bind/Leech Seed.",
 	},
 	spiritbreak: {
 		name: "Spirit Break",
