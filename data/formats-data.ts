@@ -1,6 +1,6 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	ironleaves: {
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	greendon: {
