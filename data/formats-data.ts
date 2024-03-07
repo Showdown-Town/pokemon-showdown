@@ -678,7 +678,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	slowbrogalar: {
 //		isNonstandard: "Unobtainable",
-		tier: "NU",
+		tier: "AU",
 		natDexTier: "RU",
 	},
 	slowking: {
@@ -730,7 +730,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	dewgong: {
-		tier: "LU",
+		tier: "ZU",
 		natDexTier: "RU",
 	},
 	grimer: {
@@ -1110,7 +1110,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "UU",
 	},
 	lapras: {
-		tier: "ZU",
+		tier: "LU",
 		natDexTier: "RU",
 	},
 	laprasmega: {
@@ -1559,7 +1559,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	granbull: {
-		tier: "NU",
+		tier: "AU",
 		natDexTier: "RU",
 	},
 	qwilfish: {
@@ -3198,7 +3198,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "NFE",
 	},
 	conkeldurr: {
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	tympole: {
@@ -3602,7 +3602,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "NFE",
 	},
 	chandelure: {
-		tier: "NU",
+		tier: "AUBL",
 		natDexTier: "RU",
 	},
 	axew: {
@@ -5525,7 +5525,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	espathra: {
-		tier: "NU",
+		tier: "AUBL",
 		doublesTier: "DUU",
 		natDexTier: "OU",
 	},
@@ -5657,7 +5657,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	squawkabilly: {
-		tier: "PU",
+		tier: "FU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
