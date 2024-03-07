@@ -3731,7 +3731,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regenerator: {
 		onSwitchOut(pokemon) {
-			pokemon.heal(pokemon.baseMaxhp / 3);
+			pokemon.heal(pokemon.baseMaxhp / 25);
 		},
 		flags: {},
 		name: "Regenerator",
