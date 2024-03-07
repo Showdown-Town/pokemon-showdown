@@ -159,7 +159,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	beadsofruin: {
 		name: "Beads of Ruin",
-		shortDesc: "Active Pokemon without this Ability have their Special Defense multiplied by 0.75.",
+		shortDesc: "Active Pokemon without this Ability have their Special Defense multiplied by 0.8.",
 
 		start: "  [POKEMON]'s Beads of Ruin weakened the Sp. Def of all surrounding Pokémon!",
 	},
@@ -571,7 +571,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	galewings: {
 		name: "Gale Wings",
-		shortDesc: "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
+		shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		gen6: {
 			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		},
@@ -1099,8 +1099,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	myceliummight: {
 		name: "Mycelium Might",
-		desc: "This Pokemon's Status moves ignore certain Abilities of other Pokemon, and go last among Pokemon using the same or greater priority moves.",
-		shortDesc: "This Pokemon's Status moves go last in their priority bracket and ignore Abilities.",
+		desc: "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Armor Tail, Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dazzling, Disguise, Dry Skin, Earth Eater, Filter, Flash Fire, Flower Gift, Flower Veil, Fluffy, Friend Guard, Fur Coat, Good as Gold, Grass Pelt, Guard Dog, Heatproof, Heavy Metal, Hyper Cutter, Ice Face, Ice Scales, Illuminate, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Mind's Eye, Mirror Armor, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Pastel Veil, Punk Rock, Purifying Salt, Queenly Majesty, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Tera Shell, Thermal Exchange, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Bubble, Water Veil, Well-Baked Body, White Smoke, Wind Rider, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
+		shortDesc: "This Pokemon's moves and their effects ignore the Abilities of other Pokemon.",
 	},
 	naturalcure: {
 		name: "Natural Cure",
@@ -1781,8 +1781,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	steamengine: {
 		name: "Steam Engine",
-		desc: "This Pokemon's Speed is raised by 6 stages after it is damaged by a Fire- or Water-type move.",
-		shortDesc: "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves.",
+		desc: "This Pokemon's Speed is raised by 6 stages after it is damaged by a Fire- or Water-type move. Water and Fire Immunity.",
+		shortDesc: "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves. Water and Fire Immunity.",
 	},
 	steelworker: {
 		name: "Steelworker",
@@ -1892,7 +1892,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	swordofruin: {
 		name: "Sword of Ruin",
-		shortDesc: "Active Pokemon without this Ability have their Defense multiplied by 0.75.",
+		shortDesc: "Active Pokemon without this Ability have their Defense multiplied by 0.8.",
 
 		start: "  [POKEMON]'s Sword of Ruin weakened the Defense of all surrounding Pokémon!",
 	},
@@ -1919,7 +1919,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	tabletsofruin: {
 		name: "Tablets of Ruin",
-		shortDesc: "Active Pokemon without this Ability have their Attack multiplied by 0.75.",
+		shortDesc: "Active Pokemon without this Ability have their Attack multiplied by 0.8.",
 
 		start: "  [POKEMON]'s Tablets of Ruin weakened the Attack of all surrounding Pokémon!",
 	},
@@ -2124,7 +2124,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	vesselofruin: {
 		name: "Vessel of Ruin",
-		shortDesc: "Active Pokemon without this Ability have their Special Attack multiplied by 0.75.",
+		shortDesc: "Active Pokemon without this Ability have their Special Attack multiplied by 0.8.",
 
 		start: "  [POKEMON]'s Vessel of Ruin weakened the Sp. Atk of all surrounding Pokémon!",
 	},
@@ -2167,7 +2167,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	watercompaction: {
 		name: "Water Compaction",
-		shortDesc: "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move.",
+		shortDesc: "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move. Water Immunity.",
 	},
 	waterveil: {
 		name: "Water Veil",

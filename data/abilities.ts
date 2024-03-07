@@ -2719,16 +2719,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 152,
 	},
 	myceliummight: {
-		onFractionalPriorityPriority: -1,
-		onFractionalPriority(priority, pokemon, target, move) {
-			if (move.category === 'Status') {
-				return -0.1;
-			}
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Mold Breaker');
 		},
 		onModifyMove(move) {
-			if (move.category === 'Status') {
-				move.ignoreAbility = true;
-			}
+			move.ignoreAbility = true;
 		},
 		flags: {},
 		name: "Mycelium Might",

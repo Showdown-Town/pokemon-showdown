@@ -503,8 +503,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	bittermalice: {
 		name: "Bitter Malice",
-		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-		shortDesc: "100% chance to lower the target's Attack by 1.",
+		desc: "Has a 30% chance to frostbite the target.",
+		shortDesc: "Has a 30% chance to frostbite the target.",
 	},
 	blackholeeclipse: {
 		name: "Black Hole Eclipse",
@@ -532,18 +532,18 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	blizzard: {
 		name: "Blizzard",
-		desc: "Has a 10% chance to freeze the target. If the weather is Snow, this move does not check accuracy.",
+		desc: "Has a 10% chance to frostbite the target. If the weather is Snow, this move does not check accuracy.",
 		shortDesc: "10% chance to freeze foe(s). Can't miss in Snow.",
 		gen8: {
-			desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",
+			desc: "Has a 10% chance to frostbite the target. If the weather is Hail, this move does not check accuracy.",
 			shortDesc: "10% chance to freeze foe(s). Can't miss in Hail.",
 		},
 		gen3: {
-			desc: "Has a 10% chance to freeze the target.",
+			desc: "Has a 10% chance to frostbite the target.",
 			shortDesc: "10% chance to freeze foe(s).",
 		},
 		gen2: {
-			shortDesc: "10% chance to freeze the target.",
+			shortDesc: "10% chance to frostbite the target.",
 		},
 	},
 	block: {
@@ -1095,8 +1095,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	corrosivegas: {
 		name: "Corrosive Gas",
-		desc: "The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-		shortDesc: "Removes adjacent Pokemon's held items.",
+		desc: "If the target is holding an item that can be removed from it, ignoring the Sticky Hold Ability, this move's power is multiplied by 1.5. If the user has not fainted, the target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+		shortDesc: "1.5x damage if foe holds an item. Removes item.",
 
 		fail: "#healblock",
 		removeItem: "  [SOURCE] corroded [POKEMON]'s [ITEM]!",
@@ -1362,8 +1362,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	direclaw: {
 		name: "Dire Claw",
-		desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-		shortDesc: "50% chance to sleep, poison, or paralyze target.",
+		desc: "Has a 50% chance to cause the target to either become poisoned or become paralyzed.",
+		shortDesc: "50% chance to poison or paralyze target.",
 	},
 	disable: {
 		name: "Disable",
@@ -2286,8 +2286,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	freezedry: {
 		name: "Freeze-Dry",
-		desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
-		shortDesc: "10% chance to freeze. Super effective on Water.",
+		desc: "Has a 10% chance to frostbite the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+		shortDesc: "10% chance to frostbite. Super effective on Water.",
 	},
 	freezeshock: {
 		name: "Freeze Shock",
@@ -2298,8 +2298,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	freezingglare: {
 		name: "Freezing Glare",
-		desc: "Has a 10% chance to freeze the target.",
-		shortDesc: "10% chance to freeze the target.",
+		desc: "Has a 10% chance to frostbite the target.",
+		shortDesc: "10% chance to frostbite the target.",
 	},
 	freezyfrost: {
 		name: "Freezy Frost",
@@ -3200,8 +3200,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	icebeam: {
 		name: "Ice Beam",
-		desc: "Has a 10% chance to freeze the target.",
-		shortDesc: "10% chance to freeze the target.",
+		desc: "Has a 10% chance to frostbite the target.",
+		shortDesc: "10% chance to frostbite the target.",
 	},
 	iceburn: {
 		name: "Ice Burn",
@@ -3212,8 +3212,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	icefang: {
 		name: "Ice Fang",
-		desc: "Has a 10% chance to freeze the target and a 10% chance to make it flinch.",
-		shortDesc: "10% chance to freeze. 10% chance to flinch.",
+		desc: "Has a 10% chance to frostbite the target and a 10% chance to make it flinch.",
+		shortDesc: "10% chance to frostbite. 10% chance to flinch.",
 	},
 	icehammer: {
 		name: "Ice Hammer",
@@ -3222,8 +3222,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	icepunch: {
 		name: "Ice Punch",
-		desc: "Has a 10% chance to freeze the target.",
-		shortDesc: "10% chance to freeze the target.",
+		desc: "Has a 10% chance to frostbite the target.",
+		shortDesc: "10% chance to frostbite the target.",
 	},
 	iceshard: {
 		name: "Ice Shard",
@@ -4752,10 +4752,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	powdersnow: {
 		name: "Powder Snow",
-		desc: "Has a 10% chance to freeze the target.",
+		desc: "Has a 10% chance to frostbite the target.",
 		shortDesc: "10% chance to freeze the foe(s).",
 		gen2: {
-			shortDesc: "10% chance to freeze the target.",
+			shortDesc: "10% chance to frostbite the target.",
 		},
 	},
 	powergem: {
@@ -5036,8 +5036,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	ragefist: {
 		name: "Rage Fist",
-		desc: "Power is equal to 50+(X*50), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
-		shortDesc: "+50 power for each time user was hit. Max 6 hits.",
+		desc: "Lowers the user's Attack by 2 stages.",
+		shortDesc: "Lowers the user's Attack by 2.",
 	},
 	ragepowder: {
 		name: "Rage Powder",
@@ -7374,8 +7374,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	wickedtorque: {
 		name: "Wicked Torque",
-		desc: "Has a 10% chance to cause the target to fall asleep.",
-		shortDesc: "10% chance to cause the target to fall asleep.",
+		desc: "Has a 20% chance to make the target flinch.",
+		shortDesc: "Has a 20% chance to make the target flinch.",
 	},
 	wideguard: {
 		name: "Wide Guard",
@@ -7405,14 +7405,21 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	wildcharge: {
 		name: "Wild Charge",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-		shortDesc: "Has 1/4 recoil.",
+		desc: "Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 10% chance to paralyze target.",
 	},
 	willowisp: {
 		name: "Will-O-Wisp",
 		desc: "Burns the target.",
 		shortDesc: "Burns the target.",
 	},
+	///CHILLING TOUCH///
+	chillingtouch: {
+		name: "Chilling Touch",
+		desc: "Frostbites the target.",
+		shortDesc: "Frostbites the target.",
+	},
+	///CHILLING TOUCH///
 	wingattack: {
 		name: "Wing Attack",
 		shortDesc: "No additional effect.",

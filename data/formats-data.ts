@@ -3886,7 +3886,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "OU",
 	},
 	greninjabond: {
-		tier: "OU",
+		tier: "RUBL",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
