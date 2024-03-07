@@ -61351,6 +61351,9 @@ zoruahisui: {
 },
 zoroark: {
 	learnset: {
+		gunkshot: ["9M"],
+		thunderwave: ["9M"],
+		willowisp: ["9M"],
 		aerialace: ["9M", "7M", "6M", "5M"],
 		agility: ["9M", "9L34", "8M", "8L34", "7L39", "6L39", "5L39", "5S0"],
 		assurance: ["8M"],
@@ -74613,6 +74616,7 @@ diancie: {
 },
 hoopa: {
 	learnset: {
+		teleport: ["9M"],
 		allyswitch: ["9L1", "7T", "7L1", "6L1"],
 		astonish: ["9L6", "7L6", "6L6", "6S0"],
 		block: ["7T", "6T"],
@@ -81674,7 +81678,7 @@ necrozma: {
 	learnset: {
 		aerialace: ["9M", "7M"],
 		allyswitch: ["8M", "7T"],
-		autotomize: ["8L80", "8S3", "7L47"],
+		autotomize: ["9M", "8L80", "8S3", "7L47"],
 		bodyslam: ["9M"],
 		breakingswipe: ["8M"],
 		brickbreak: ["9M", "8M", "7M"],
@@ -87283,6 +87287,7 @@ urshifurapidstrike: {
 zarude: {
 	learnset: {
 		pursuit: ["9M"],
+		suckerpunch: ["9M"],
 		toxic: ["9M"],
 		acrobatics: ["9M", "8M"],
 		aerialace: ["9M"],
@@ -88007,7 +88012,9 @@ calyrexshadow: {
 },
 enamorus: {
 	learnset: {
-		//uturn: ["9M"],
+		airslash: ["9M"],
+		aircutter: ["9M"],
+		uturn: ["9M"],
 		defog: ["9M"],
 		knockoff: ["9M"],
 		toxic: ["9M"],
@@ -89915,7 +89922,8 @@ capsakid: {
 },
 scovillain: {
 	learnset: {
-		sleepowder: ["9M"],
+		sleeppowder: ["9M"],
+		nastyplot: ["9M"],
 		darkpulse: ["9M"],
 		stunspore: ["9M"],
 		earthpower: ["9M"],
@@ -92571,6 +92579,7 @@ irontreads: {
 },
 ironmoth: {
 	learnset: {
+		corrosivegas: ["9M"],
 		thunderwave: ["9M"],
 		sludgebomb: ["9M"],
 		acidspray: ["9M", "9L1"],
@@ -92915,6 +92924,7 @@ ironbundle: {
 },
 ironvaliant: {
 	learnset: {
+		playrough: ["9M"],
 		toxic: ["9M"],
 		aerialace: ["9M"],
 		agility: ["9M"],
@@ -94910,6 +94920,15 @@ terapagos: {
 pecharunt: {
 	learnset: {
 		corrosivegas: ["9M"],
+		bodypress: ["9M"],
+		switcheroo: ["9M"],
+		taunt: ["9M"],
+		toxicspikes: ["9M"],
+		defog: ["9M"],
+		dualwingbeat: ["9M"],
+		infestation: ["9M"],
+		bulletseed: ["9M"],
+		seedbomb: ["9M"],
 		willowisp: ["9M"],
 		focusblast: ["9M"],
 		knockoff: ["9M"],

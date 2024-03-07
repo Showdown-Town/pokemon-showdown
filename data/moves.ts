@@ -1421,7 +1421,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	bittermalice: {
 		num: 841,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 90,
 		category: "Special",
 		name: "Bitter Malice",
 		pp: 10,
@@ -3348,13 +3348,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 	crushgrip: {
 		num: 462,
 		accuracy: 100,
-		basePower: 0,
-		basePowerCallback(pokemon, target) {
-			const hp = target.hp;
-			const maxHP = target.maxhp;
-			const bp = Math.floor(Math.floor((120 * (100 * Math.floor(hp * 4096 / maxHP)) + 2048 - 1) / 4096) / 100) || 1;
-			this.debug('BP for ' + hp + '/' + maxHP + " HP: " + bp);
-			return bp;
+		basePower: 80,
+		onBasePower(basePower, pokemon, target) {
+			if (target.hp * 2 <= target.maxhp) {
+				return this.chainModify(2);
+			}
 		},
 		category: "Physical",
 		name: "Crush Grip",
@@ -9874,7 +9872,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	infernalparade: {
 		num: 844,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 70,
 		basePowerCallback(pokemon, target, move) {
 			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
 			return move.basePower;
@@ -14447,15 +14445,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 	prismaticlaser: {
 		num: 711,
 		accuracy: 100,
-		basePower: 160,
+		basePower: 150,
 		category: "Special",
 		name: "Prismatic Laser",
-		pp: 10,
+		pp: 5,
 		priority: 0,
-		flags: {recharge: 1, protect: 1, mirror: 1, metronome: 1},
-		self: {
-			volatileStatus: 'mustrecharge',
-		},
+		flags: {recharge: 1, protect: 1, mirror: 1, metronome: 1, cantusetwice: 1},
 		secondary: null,
 		target: "normal",
 		type: "Psychic",
@@ -15723,7 +15718,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	roaroftime: {
 		num: 459,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 150,
 		category: "Special",
 		name: "Roar of Time",
@@ -18125,15 +18120,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Spicy Extract",
-		pp: 15,
+		pp: 20,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1},
+		flags: {snatch: 1, metronome: 1},
 		boosts: {
-			atk: 2,
-			def: -2,
+			spa: 1,
+			spe: 1,
 		},
 		secondary: null,
-		target: "normal",
+		target: "self",
 		type: "Grass",
 	},
 	spiderweb: {
@@ -22008,7 +22003,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	zenheadbutt: {
 		num: 428,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
 		name: "Zen Headbutt",

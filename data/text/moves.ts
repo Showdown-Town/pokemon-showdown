@@ -4819,8 +4819,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	prismaticlaser: {
 		name: "Prismatic Laser",
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-		shortDesc: "User cannot move next turn.",
+		shortDesc: "Cannot be selected the turn after it's used.",
 	},
 	protect: {
 		name: "Protect",
@@ -6092,8 +6091,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	spicyextract: {
 		name: "Spicy Extract",
-		desc: "Raises the target's Attack by 2 stages and lowers its Defense by 2 stages.",
-		shortDesc: "Raises target's Atk by 2 and lowers its Def by 2.",
+		desc: "Raises the user's Special Attack and Speed by 1 stage.",
+		shortDesc: "Raises the user's Special Attack and Speed by 1.",
 	},
 	spiderweb: {
 		name: "Spider Web",

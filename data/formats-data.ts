@@ -1712,7 +1712,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	wyrdeer: {
 //		isNonstandard: "Unobtainable",
-		tier: "PU",
+		tier: "FU",
 		natDexTier: "RU",
 	},
 	smeargle: {
@@ -3436,7 +3436,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	zoroarkhisui: {
 //		isNonstandard: "Unobtainable",
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	minccino: {
@@ -4239,7 +4239,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	hoopa: {
 //		isNonstandard: "Unobtainable",
-		tier: "AU",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	hoopaunbound: {
@@ -4269,7 +4269,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	decidueyehisui: {
 //		isNonstandard: "Unobtainable",
-		tier: "LU",
+		tier: "AU",
 		natDexTier: "RU",
 	},
 	litten: {
@@ -5651,7 +5651,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	bombirdier: {
-		tier: "NU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
