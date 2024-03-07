@@ -5485,7 +5485,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "PU",
 	},
 	oinkolognef: {
-		tier: "PU",
+		tier: "ZU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
