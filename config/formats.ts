@@ -85,9 +85,8 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard', 'Terastal Clause'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass',
-		'Quick Draw', 'Quick Claw', 'Focus Band', 'Shed Tail', 'Light Clay', 'Dark Void', 'Soul Dew', 'Last Respects'],
+		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},
 	{
 		name: "[Gen 9] Ubers",
@@ -122,7 +121,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen9',
 		ruleset: ['[Gen 9] UU'],
-		banlist: ['UU', 'RUBL'],
+		banlist: ['UU', 'RUBL', 'Light Clay'],
 	},
 	{
 		name: "[Gen 9] NU",
@@ -134,18 +133,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen9',
 		ruleset: ['[Gen 9] RU'],
-		banlist: ['RU', 'NUBL'],
-	},
-	{
-		name: "[Gen 9] AU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3729623/">PU Viability Rankings</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3719989/">PU Sample Teams</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] NU'],
-		banlist: ['NU', 'PUBL', 'Drought'],
+		banlist: ['RU', 'NUBL', 'Quick Claw'],
 	},
 	{
 		name: "[Gen 9] PU",
@@ -155,39 +143,8 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['[Gen 9] AU'],
-		banlist: ['AU', 'PUBL'],
-	},
-	{
-		name: "[Gen 9] LU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3729623/">PU Viability Rankings</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3719989/">PU Sample Teams</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] PU'],
-		banlist: ['PU', 'LUBL'],
-	},
-	{
-		name: "[Gen 9] ZU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3719022/">ZU Metagame Discussion</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] LU'],
-		banlist: ['LU', 'ZUBL'],
-	},
-	{
-		name: "[Gen 9] FU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3719022/">ZU Metagame Discussion</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] ZU'],
-		banlist: ['ZU', 'FUBL'],
+		ruleset: ['[Gen 9] NU'],
+		banlist: ['NU', 'PUBL', 'Drought'],
 	},
 	{
 		name: "[Gen 9] LC",
@@ -448,6 +405,16 @@ export const Formats: FormatList = [
 			// Ubers UUBL
 			'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Steel', 'Arceus-Water', 'Necrozma-Dawn-Wings', 'Shaymin-Sky', 'Zekrom', 'Last Respects',
 		],
+	},
+	{
+		name: "[Gen 9] ZU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3719022/">ZU Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9',
+		ruleset: ['[Gen 9] PU'],
+		banlist: ['PU', 'ZUBL'],
 	},
 	{
 		name: "[Gen 9] Free-For-All",
