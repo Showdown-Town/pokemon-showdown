@@ -562,7 +562,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	armthrust: {
 		num: 292,
 		accuracy: 100,
-		basePower: 15,
+		basePower: 25,
 		category: "Physical",
 		name: "Arm Thrust",
 		pp: 20,
@@ -1428,10 +1428,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1, metronome: 1},
 		secondary: {
-			chance: 100,
-			boosts: {
-				atk: -1,
-			},
+			chance: 30,
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ghost",
@@ -2999,24 +2997,31 @@ export const Moves: {[moveid: string]: MoveData} = {
 	corrosivegas: {
 		num: 810,
 		accuracy: 100,
-		basePower: 0,
-		category: "Status",
-		isNonstandard: "Unobtainable",
+		basePower: 65,
+		category: "Special",
 		name: "Corrosive Gas",
-		pp: 40,
+		pp: 20,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1},
-		onHit(target, source) {
-			const item = target.takeItem(source);
-			if (item) {
-				this.add('-enditem', target, item.name, '[from] move: Corrosive Gas', '[of] ' + source);
-			} else {
-				this.add('-fail', target, 'move: Corrosive Gas');
+		flags: {protect: 1, mirror: 1},
+		onBasePower(basePower, source, target, move) {
+			const item = target.getItem();
+			if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
+			if (item.id) {
+				return this.chainModify(1.5);
+			}
+		},
+		onAfterHit(target, source) {
+			if (source.hp) {
+				const item = target.takeItem();
+				if (item) {
+					this.add('-enditem', target, item.name, '[from] move: Corrosive Gas', '[of] ' + source);
+				}
 			}
 		},
 		secondary: null,
-		target: "allAdjacent",
+		target: "normal",
 		type: "Poison",
+		contestType: "Clever",
 	},
 	cosmicpower: {
 		num: 322,
@@ -3862,8 +3867,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 					target.trySetStatus('psn', source);
 				} else if (result === 1) {
 					target.trySetStatus('par', source);
-				} else {
-					target.trySetStatus('slp', source);
+				///} else {
+				///	target.trySetStatus('slp', source);
 				}
 			},
 		},
@@ -4461,10 +4466,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	dualchop: {
 		num: 530,
-		accuracy: 90,
-		basePower: 40,
+		accuracy: 100,
+		basePower: 50,
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Dual Chop",
 		pp: 15,
 		priority: 0,
@@ -4478,8 +4483,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	dualwingbeat: {
 		num: 814,
-		accuracy: 90,
-		basePower: 40,
+		accuracy: 100,
+		basePower: 50,
 		category: "Physical",
 		name: "Dual Wingbeat",
 		pp: 10,
@@ -7925,7 +7930,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	grassyglide: {
 		num: 803,
 		accuracy: 100,
-		basePower: 55,
+		basePower: 60,
 		category: "Physical",
 		name: "Grassy Glide",
 		pp: 20,
@@ -13862,7 +13867,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Past",
+		///isNonstandard: "Past",
 		name: "Plasma Fists",
 		pp: 15,
 		priority: 0,
@@ -14891,7 +14896,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return move.basePower;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
+		///isNonstandard: "Past",
 		name: "Pursuit",
 		pp: 20,
 		priority: 0,
@@ -20817,23 +20822,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 	triplekick: {
 		num: 167,
 		accuracy: 90,
-		basePower: 10,
+		basePower: 20,
 		basePowerCallback(pokemon, target, move) {
-			return 10 * move.hit;
+			return 20 * move.hit;
 		},
 		category: "Physical",
 		name: "Triple Kick",
 		pp: 10,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 3,
 		multiaccuracy: true,
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
 		zMove: {basePower: 120},
-		maxMove: {basePower: 80},
-		contestType: "Cool",
+		maxMove: {basePower: 140},
 	},
 	tropkick: {
 		num: 688,
@@ -21243,7 +21247,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	volttackle: {
 		num: 344,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 140,
 		category: "Physical",
 		name: "Volt Tackle",
 		pp: 15,
@@ -21686,14 +21690,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 	wildcharge: {
 		num: 528,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 120,
 		category: "Physical",
 		name: "Wild Charge",
 		pp: 15,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
-		recoil: [1, 4],
-		secondary: null,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [1, 3],
+		secondary: {
+			chance: 10,
+			status: 'par',
+		},
 		target: "normal",
 		type: "Electric",
 		contestType: "Tough",

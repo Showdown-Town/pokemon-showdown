@@ -352,43 +352,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 4,
 	},
-	///battlebond: {
-		///onSourceAfterFaint(length, target, source, effect) {
-			///if (effect?.effectType !== 'Move') return;
-			///if (source.abilityState.battleBondTriggered) return;
-///			if (source.species.id === 'greninjabond' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
-	///			this.boost({atk: 1, spa: 1, spe: 1}, source, source, this.effect);
-		///		this.add('-activate', source, 'ability: Battle Bond');
-		///		source.abilityState.battleBondTriggered = true;
-		///	}
-///		},
-///		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
-///		name: "Battle Bond",
-///		rating: 3.5,
-///		num: 210,
-///	},
-battlebond: {
-	onSourceAfterFaint(length, target, source, effect) {
-		if (effect?.effectType !== 'Move') {
-			return;
-		}
-		if (source.species.id === 'greninja' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
-			this.add('-activate', source, 'ability: Battle Bond');
-			source.formeChange('Greninja-Ash', this.effect, true);
-		}
+	battlebond: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect?.effectType !== 'Move') return;
+			if (source.abilityState.battleBondTriggered) return;
+		if (source.species.id === 'greninjabond' && source.hp && !source.transformed && source.side.foePokemonLeft()) {
+			this.boost({atk: 1, spa: 1, spe: 1}, source, source, this.effect);
+				this.add('-activate', source, 'ability: Battle Bond');
+				source.abilityState.battleBondTriggered = true;
+			}
+		},
+		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
+		name: "Battle Bond",
+		rating: 3.5,
+		num: 210,
 	},
-	onModifyMovePriority: -1,
-	onModifyMove(move, attacker) {
-		if (move.id === 'watershuriken' && attacker.species.name === 'Greninja-Ash' &&
-			!attacker.transformed) {
-			move.multihit = 3;
-		}
-	},
-	isPermanent: true,
-	name: "Battle Bond",
-	rating: 4,
-	num: 210,
-},
 	beadsofruin: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
@@ -400,7 +378,7 @@ battlebond: {
 			if (!move.ruinedSpD?.hasAbility('Beads of Ruin')) move.ruinedSpD = abilityHolder;
 			if (move.ruinedSpD !== abilityHolder) return;
 			this.debug('Beads of Ruin SpD drop');
-			return this.chainModify(0.75);
+			return this.chainModify(0.80);
 		},
 		flags: {},
 		name: "Beads of Ruin",
@@ -4465,12 +4443,18 @@ battlebond: {
 		num: 80,
 	},
 	steamengine: {
+		onTryHit(target, source, move) {
+			if (move.type === 'Water' || move.type === 'Fire') {
+				this.add('-immune', target, '[from] ability: Steam Engine');
+				this.boost({spe: 6});
+				return null;
+			}
+		},
 		onDamagingHit(damage, target, source, move) {
 			if (['Water', 'Fire'].includes(move.type)) {
 				this.boost({spe: 6});
 			}
 		},
-		flags: {},
 		name: "Steam Engine",
 		rating: 2,
 		num: 243,
@@ -4776,7 +4760,7 @@ battlebond: {
 			if (!move.ruinedDef?.hasAbility('Sword of Ruin')) move.ruinedDef = abilityHolder;
 			if (move.ruinedDef !== abilityHolder) return;
 			this.debug('Sword of Ruin Def drop');
-			return this.chainModify(0.75);
+			return this.chainModify(0.80);
 		},
 		flags: {},
 		name: "Sword of Ruin",
@@ -4794,7 +4778,7 @@ battlebond: {
 			if (!move.ruinedAtk) move.ruinedAtk = abilityHolder;
 			if (move.ruinedAtk !== abilityHolder) return;
 			this.debug('Tablets of Ruin Atk drop');
-			return this.chainModify(0.75);
+			return this.chainModify(0.80);
 		},
 		flags: {},
 		name: "Tablets of Ruin",
@@ -5227,7 +5211,7 @@ battlebond: {
 			if (!move.ruinedSpA) move.ruinedSpA = abilityHolder;
 			if (move.ruinedSpA !== abilityHolder) return;
 			this.debug('Vessel of Ruin SpA drop');
-			return this.chainModify(0.75);
+			return this.chainModify(0.80);
 		},
 		flags: {},
 		name: "Vessel of Ruin",
@@ -5363,12 +5347,13 @@ battlebond: {
 		num: 199,
 	},
 	watercompaction: {
-		onDamagingHit(damage, target, source, move) {
+		onTryHit(target, source, move) {
 			if (move.type === 'Water') {
+				this.add('-immune', target, '[from] ability: Water Compaction');
 				this.boost({def: 2});
+				return null;
 			}
 		},
-		flags: {},
 		name: "Water Compaction",
 		rating: 1.5,
 		num: 195,
