@@ -2835,7 +2835,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	rotom: {
-		tier: "PU",
+		tier: "LU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
