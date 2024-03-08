@@ -2461,8 +2461,9 @@ export const Formats: FormatList = [
 
 		mod: 'gen9dlc1',
 		searchShow: false,
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		ruleset: ['Standard', 'Terastal Clause'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass',
+				'Quick Draw', 'Quick Claw', 'Focus Band', 'Shed Tail', 'Soul Dew'],
 	},
 	{
 		name: "[Gen 9 DLC 1] Ubers",
