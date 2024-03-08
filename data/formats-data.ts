@@ -2876,7 +2876,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	azelf: {
 //		isNonstandard: "Unobtainable",
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	dialga: {
@@ -5389,11 +5389,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	zarude: {
 //		isNonstandard: "Unobtainable",
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	zarudedada: {
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 //		isNonstandard: "Unobtainable",
 	},
