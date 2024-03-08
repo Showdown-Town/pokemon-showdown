@@ -901,7 +901,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Autotomize",
 		pp: 15,
 		priority: 0,
