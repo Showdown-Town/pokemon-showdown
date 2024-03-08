@@ -4239,12 +4239,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	hoopa: {
 //		isNonstandard: "Unobtainable",
-		tier: "RU",
+		tier: "AU",
 		natDexTier: "RU",
 	},
 	hoopaunbound: {
 //		isNonstandard: "Unobtainable",
-		tier: "RUBL",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	volcanion: {
