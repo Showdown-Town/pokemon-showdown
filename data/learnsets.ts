@@ -94149,7 +94149,7 @@ sinistcha: {
 },
 sinistchamasterpiece: {
 	learnset: {
-		shellsmash: ["9M"],
+		//shellsmash: ["9M"],
 		absorb: ["9L6"],
 		astonish: ["9L1"],
 		calmmind: ["9M"],
