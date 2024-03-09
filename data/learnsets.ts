@@ -92581,7 +92581,7 @@ irontreads: {
 },
 ironmoth: {
 	learnset: {
-		corrosivegas: ["9M"],
+		//corrosivegas: ["9M"],
 		thunderwave: ["9M"],
 		sludgebomb: ["9M"],
 		acidspray: ["9M", "9L1"],
