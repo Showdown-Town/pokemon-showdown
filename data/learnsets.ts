@@ -67238,6 +67238,7 @@ virizion: {
 },
 tornadus: {
 	learnset: {
+		calmmind: ["9M"],
 		dualwingbeat: ["9M"],
 		acrobatics: ["9M", "8M", "7M", "6M", "5M"],
 		aerialace: ["7M", "6M", "5M"],
@@ -67339,6 +67340,7 @@ tornadustherian: {
 },
 thundurus: {
 	learnset: {
+		calmmind: ["9M"],
 		hurricane: ["9M"],
 		acrobatics: ["9M"],
 		agility: ["9M", "9L25", "8M", "8L25", "7L31", "6L37", "6S3", "5L37", "5S0"],
