@@ -94436,7 +94436,7 @@ ogerpon: {
 		lowkick: ["9M", "9S1"],
 		lowsweep: ["9M", "9L24"],
 		magicalleaf: ["9M"],
-		playrough: ["9M"],
+		//playrough: ["9M"],
 		powerwhip: ["9L54"],
 		protect: ["9M"],
 		quickattack: ["9L1"],
