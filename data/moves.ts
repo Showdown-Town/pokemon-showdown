@@ -10093,12 +10093,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 	ivycudgel: {
 		num: 904,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 100,
 		category: "Physical",
 		name: "Ivy Cudgel",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, metronome: 1},
+		critRatio: 2,
 		onPrepareHit(target, source, move) {
 			if (move.type !== "Grass") {
 				this.attrLastMove('[anim] Ivy Cudgel ' + move.type);

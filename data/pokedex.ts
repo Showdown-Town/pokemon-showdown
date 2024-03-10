@@ -18539,7 +18539,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Chi-Yu",
 		types: ["Dark", "Fire"],
 		gender: "N",
-		baseStats: {hp: 60, atk: 80, def: 80, spa: 130, spd: 120, spe: 100},
+		baseStats: {hp: 65, atk: 80, def: 80, spa: 125, spd: 120, spe: 100},
 		abilities: {0: "Beads of Ruin", H: "Flame Body"},
 		heightm: 0.4,
 		weightkg: 4.9,

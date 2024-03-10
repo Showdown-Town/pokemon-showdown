@@ -1108,7 +1108,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.name.startsWith('Ogerpon-Cornerstone')) {
-				return this.chainModify([4505, 4096]);
+				return this.chainModify([4915, 4096]);
 			}
 		},
 		onTakeItem(item, source) {
@@ -2516,7 +2516,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.name.startsWith('Ogerpon-Hearthflame')) {
-				return this.chainModify([4505, 4096]);
+				return this.chainModify([4915, 4096]);
 			}
 		},
 		onTakeItem(item, source) {
@@ -7116,7 +7116,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.name.startsWith('Ogerpon-Wellspring')) {
-				return this.chainModify([4505, 4096]);
+				return this.chainModify([4915, 4096]);
 			}
 		},
 		onTakeItem(item, source) {
