@@ -306,7 +306,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	cornerstonemask: {
 		name: "Cornerstone Mask",
-		desc: "Ogerpon-Cornerstone: 1.2x power attacks; Terastallize to gain Embody Aspect.",
+		desc: "Ogerpon-Cornerstone: 1.1x power attacks; Terastallize to gain Embody Aspect.",
 	},
 	cornnberry: {
 		name: "Cornn Berry",
@@ -781,7 +781,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	hearthflamemask: {
 		name: "Hearthflame Mask",
-		desc: "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect.",
+		desc: "Ogerpon-Hearthflame: 1.1x power attacks; Terastallize to gain Embody Aspect.",
 	},
 	heatrock: {
 		name: "Heat Rock",
@@ -2315,7 +2315,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	wellspringmask: {
 		name: "Wellspring Mask",
-		desc: "Ogerpon-Wellspring: 1.2x power attacks; Terastallize to gain Embody Aspect.",
+		desc: "Ogerpon-Wellspring: 1.1x power attacks; Terastallize to gain Embody Aspect.",
 	},
 	wepearberry: {
 		name: "Wepear Berry",
