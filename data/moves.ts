@@ -22100,4 +22100,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {atk: 1}},
 		contestType: "Beautiful",
 	},
+	greendonstrike: {
+		num: 9556,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Greendon Strike",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Dragon') return 1;
+		},
+		selfSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Cool",
+	},
 };

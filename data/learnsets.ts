@@ -32,7 +32,10 @@
 	/////GREENDON///////
 	greendon: {
 		learnset: {
+			greendonstrike: ["9M"],
 			stealthrock: ["9M"],
+			rockslide: ["9M"],
+			dracometeor: ["9M"],
 			stoneedge: ["9M"],
 			rockblast: ["9M"],
 			powergem: ["9M"],
