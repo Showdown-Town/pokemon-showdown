@@ -2326,7 +2326,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	banettemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	duskull: {
 		tier: "LC",
@@ -4411,7 +4411,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	toxapex: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "OU",
 	},
 	mudbray: {
 		tier: "LC",
@@ -5077,7 +5077,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sandacondamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	sandacondagmax: {
 		isNonstandard: "Past",
@@ -5739,7 +5739,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	greattusk: {
 		tier: "OU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	brutebonnet: {
 		tier: "AU",

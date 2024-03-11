@@ -596,8 +596,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	gorillatactics: {
 		name: "Gorilla Tactics",
-		desc: "This Pokemon's Attack is multiplied by 1.5, but it can only select the first move it executes. These effects are prevented while this Pokemon is Dynamaxed.",
-		shortDesc: "This Pokemon's Attack is 1.5x, but it can only select the first move it executes.",
+		desc: "This Pokemon's Attack is multiplied by 1.3, but it can only select the first move it executes. These effects are prevented while this Pokemon is Dynamaxed.",
+		shortDesc: "This Pokemon's Attack is 1.3x, but it can only select the first move it executes.",
 	},
 	grasspelt: {
 		name: "Grass Pelt",
