@@ -1815,7 +1815,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	swampertmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "OU",
 	},
 	poochyena: {
 		tier: "LC",
@@ -1941,7 +1941,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gallademega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	surskit: {
 		tier: "LC",
@@ -2029,12 +2029,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sableye: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	sableyemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	mawile: {
 		isNonstandard: "Past",
@@ -2452,7 +2452,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	metagrossmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "OU",
 	},
 	regirock: {
 		tier: "NU",
@@ -3178,7 +3178,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	excadrill: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	audino: {
 		isNonstandard: "Past",
@@ -3291,8 +3291,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	basculegion: {
 //		isNonstandard: "Unobtainable",
-		tier: "OU",
-		natDexTier: "RU",
+		tier: "AU",
+		natDexTier: "OU",
 	},
 	basculegionf: {
 //		isNonstandard: "Unobtainable",
@@ -4012,7 +4012,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	aegislash: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	aegislashblade: {
 		isNonstandard: "Past",
@@ -4900,7 +4900,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	inteleonmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	inteleongmax: {
 		isNonstandard: "Past",
@@ -5046,7 +5046,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	flapplemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	flapplegmax: {
 		isNonstandard: "Past",
