@@ -33,6 +33,7 @@
 	greendon: {
 		learnset: {
 			greendonstrike: ["9M"],
+			chillingtouch: ["9M"],
 			stealthrock: ["9M"],
 			rockslide: ["9M"],
 			dracometeor: ["9M"],
