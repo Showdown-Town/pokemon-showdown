@@ -419,6 +419,7 @@ venusaur: {
 },
 charmander: {
 	learnset: {
+		lavaplume: ["9M"],
 		uturn: ["9M"],
 		acrobatics: ["8M", "5S6"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -1301,6 +1302,9 @@ kakuna: {
 },
 beedrill: {
 	learnset: {
+		closecombat: ["8M"],
+		megahorn: ["7M"],
+		gunkshot: ["8M"],
 		acrobatics: ["7M", "6M", "5M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		agility: ["8V", "7L38", "7V", "6L31", "5L31", "4L31", "3L40"],
@@ -1393,6 +1397,8 @@ beedrill: {
 },
 pidgey: {
 	learnset: {
+		superpower: ["9M"],
+		focusblast: ["9M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		agility: ["8V", "7L29", "7V", "6L29", "5L29", "4L29", "3L39"],
 		aircutter: ["7E", "6E", "5E", "4T", "4E", "3E"],
@@ -1769,6 +1775,10 @@ rattataalola: {
 },
 raticate: {
 	learnset: {
+		psychicfangs: ["9M"],
+		firefang: ["9M"],
+		icefang: ["9M"],
+		thunderfang: ["9M"],
 		assurance: ["7L19", "6L29", "5L29", "4L29"],
 		attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 		bide: ["7V"],
@@ -1864,6 +1874,7 @@ raticate: {
 },
 raticatealola: {
 	learnset: {
+		slackoff: ["9M"],
 		assurance: ["7L19"],
 		attract: ["7M"],
 		bite: ["8V", "7L10"],
@@ -2009,6 +2020,7 @@ raticatealolatotem: {
 },
 spearow: {
 	learnset: {
+		bravebird: ["9M"],
 		aerialace: ["7M", "7L15", "6M", "6L17", "5M", "5L17", "4M", "4L17", "3M", "3L25", "3S0"],
 		agility: ["8V", "7L25", "7V", "6L25", "5L25", "4L25", "3L43"],
 		aircutter: ["4T"],
@@ -13932,6 +13944,8 @@ gengar: {
 },
 onix: {
 	learnset: {
+		headlongrush: ["9M"],
+		spikes: ["9M"],
 		ancientpower: ["4T"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		bide: ["7V"],
@@ -14028,6 +14042,8 @@ onix: {
 },
 steelix: {
 	learnset: {
+		hardpress: ["9M"],
+		slackoff: ["9M"],
 		ancientpower: ["4T"],
 		aquatail: ["7T", "6T", "5T", "4T"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -20136,6 +20152,8 @@ gyarados: {
 		powerwhip: ["9M"],
 		icespinner: ["9M"],
 		dracometeor: ["9M"],
+		wavecrash: ["8M"],
+		flipturn: ["8M"],
 		aquatail: ["9L32", "8L32", "7T", "7L30", "6T", "6L35", "5T", "5L35", "4T", "4L35"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		avalanche: ["9M", "8M", "4M"],
@@ -25260,6 +25278,7 @@ ledyba: {
 },
 ledian: {
 	learnset: {
+		closecombat: ["9M"],
 		acrobatics: ["7M", "6M", "5M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		agility: ["7L33", "7V", "6L36", "5L36", "4L36", "3L51"],
@@ -40266,6 +40285,8 @@ roselia: {
 },
 roserade: {
 	learnset: {
+		focusblast: ["9M"],
+		corrosivegas: ["8M"],
 		absorb: ["8L1"],
 		aromatherapy: ["8L1"],
 		attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -56113,6 +56134,10 @@ purrloin: {
 },
 liepard: {
 	learnset: {
+		reflect: ["9M"],
+		lightscreen: ["9M"],
+		memento: ["9M"],
+		switcheroo: ["9M"],
 		aerialace: ["7M", "6M", "5M"],
 		assist: ["7L1", "6L1", "5L1"],
 		assurance: ["8M", "8L23", "7L31", "6L31", "5L31"],
@@ -58189,6 +58214,7 @@ seismitoad: {
 },
 throh: {
 	learnset: {
+		closecombat: ["9M"],
 		attract: ["8M", "7M", "6M", "5M"],
 		bide: ["7L1", "6L5", "5L5"],
 		bind: ["8L1", "7T", "7L1", "6T", "6L1", "5T", "5L1", "5D"],
@@ -70647,6 +70673,7 @@ pancham: {
 },
 pangoro: {
 	learnset: {
+		suckerpunch: ["8M"],
 		aerialace: ["7M", "6M"],
 		armthrust: ["8L1", "7L1", "6L7"],
 		attract: ["8M", "7M", "6M"],
@@ -92585,7 +92612,7 @@ irontreads: {
 },
 ironmoth: {
 	learnset: {
-		//corrosivegas: ["9M"],
+		corrosivegas: ["8M"],
 		thunderwave: ["9M"],
 		sludgebomb: ["9M"],
 		acidspray: ["9M", "9L1"],
@@ -94339,6 +94366,7 @@ munkidori: {
 },
 fezandipiti: {
 	learnset: {
+		corrosivegas: ["8M"],
 		defog: ["9M"],
 		acidspray: ["9M"],
 		acrobatics: ["9M"],

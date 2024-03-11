@@ -100,12 +100,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	blastoisemegax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "Uber",
 	},
 	blastoisemegay: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	blastoisegmax: {
 		isNonstandard: "Past",
@@ -2294,7 +2294,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	milotic: {
 		tier: "OU",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	castform: {
 		isNonstandard: "Past",
@@ -3292,7 +3292,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	basculegion: {
 //		isNonstandard: "Unobtainable",
 		tier: "AU",
-		natDexTier: "OU",
+		natDexTier: "RU",
 	},
 	basculegionf: {
 //		isNonstandard: "Unobtainable",
