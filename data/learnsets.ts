@@ -59,7 +59,7 @@
 			leechseed: ["9M"],
 			rest: ["9M"],
 			protect: ["9M"],
-			toxic: ["9M"],
+			toxic: ["9M", "8M"],
 			thunderwave: ["9M"],
 			thunder: ["9M"],
 			thunderbolt: ["9M"],
@@ -7693,7 +7693,7 @@ meowthalola: {
 },
 meowthgalar: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bulletpunch: ["9M"],
 		aerialace: ["9M"],
 		amnesia: ["9M", "8M"],
@@ -8782,7 +8782,7 @@ growlithe: {
 },
 growlithehisui: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M"],
 		bite: ["9L8", "9S0"],
 		bodyslam: ["9M"],
@@ -11512,7 +11512,7 @@ slowpoke: {
 slowpokegalar: {
 	learnset: {
 		corrosivegas: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		teleport: ["9M", "9M"],
 		acid: ["9L6", "8L6"],
 		amnesia: ["9M", "9L27", "8M", "8L27"],
@@ -14665,7 +14665,7 @@ voltorb: {
 voltorbhisui: {
 	learnset: {
 		grassknot: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		rapidspin: ["9M"],
 		agility: ["9M"],
 		bulletseed: ["9M", "9L9"],
@@ -19934,7 +19934,7 @@ tauros: {
 },
 taurospaldeacombat: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		swordsdance: ["9M", ],
 		slackoff: ["9M", ],
 		assurance: ["9L15"],
@@ -19991,7 +19991,7 @@ taurospaldeacombat: {
 },
 taurospaldeablaze: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		swordsdance: ["9M", ],
 		slackoff: ["9M", ],
 		bodypress: ["9M"],
@@ -20053,7 +20053,7 @@ taurospaldeablaze: {
 },
 taurospaldeaaqua: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		swordsdance: ["9M", ],
 		slackoff: ["9M", ],
 		scald: ["9M", "9M"],
@@ -22171,6 +22171,8 @@ munchlax: {
 snorlax: {
 	learnset: {
 		slackoff: ["9M"],
+		stealthrock: ["8M"],
+		woodhammer: ["8M"],
 		darkestlariat: ["9M"],
 		afteryou: ["7T", "7E", "6T", "6E", "5T", "5E"],
 		amnesia: ["9M", "9L36", "8M", "8L36", "8V", "7L9", "7V", "6L9", "5L9", "5D", "4L9", "3L5"],
@@ -22432,7 +22434,7 @@ articuno: {
 },
 articunogalar: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		defog: ["9M"],
 		earthpower: ["9M", ],
 		weatherball: ["9M", ],
@@ -22611,7 +22613,7 @@ zapdos: {
 zapdosgalar: {
 	learnset: {
 		knockoff: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		defog: ["9M", ],
 		roost: ["9M", "9M", ],
 		acrobatics: ["9M", "8M"],
@@ -22789,7 +22791,7 @@ moltres: {
 moltresgalar: {
 	learnset: {
 		knockoff: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		defog: ["9M", ],
 		roost: ["9M", "9M", ],
 		acrobatics: ["9M"],
@@ -59204,7 +59206,7 @@ basculin: {
 },
 basculinwhitestriped: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		scald: ["9M"],
 		agility: ["9M"],
 		aquajet: ["9L12"],
@@ -61324,7 +61326,7 @@ zorua: {
 },
 zoruahisui: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L32"],
 		bittermalice: ["9L40"],
 		burningjealousy: ["9M"],
@@ -82586,7 +82588,7 @@ melmetal: {
 grookey: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		assurance: ["8M"],
 		attract: ["8M"],
@@ -82789,7 +82791,7 @@ rillaboom: {
 scorbunny: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		agility: ["9M", "9L20", "8M", "8L20"],
 		allyswitch: ["8M"],
@@ -82991,7 +82993,7 @@ cinderace: {
 sobble: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		icebeam: ["9M"],
 		darkpulse: ["9M"],
 		aquajet: ["9E", "8E"],
@@ -83167,7 +83169,7 @@ inteleon: {
 skwovet: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		firefang: ["9M"],
 		icefang: ["9M"],
 		thunderfang: ["9M"],
@@ -83289,7 +83291,7 @@ greedent: {
 rookidee: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		aerialace: ["9M"],
 		agility: ["9M", "8M"],
 		aircutter: ["9M"],
@@ -83574,6 +83576,7 @@ orbeetle: {
 },
 nickit: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		agility: ["8M"],
 		assurance: ["8M", "8L16"],
@@ -83664,6 +83667,7 @@ thievul: {
 },
 gossifleur: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		aromatherapy: ["8L32"],
 		attract: ["8M"],
@@ -83749,6 +83753,7 @@ eldegoss: {
 },
 wooloo: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		agility: ["8M"],
 		attract: ["8M"],
@@ -83827,7 +83832,7 @@ dubwool: {
 chewtle: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		assurance: ["8M"],
 		attract: ["8M"],
 		bite: ["9L7", "8L7"],
@@ -83955,6 +83960,7 @@ drednaw: {
 },
 yamper: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		attract: ["8M"],
 		bite: ["8L10"],
@@ -84046,7 +84052,7 @@ boltund: {
 rolycoly: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		ancientpower: ["9L20", "8L20"],
 		attract: ["8M"],
 		block: ["9E", "8E"],
@@ -84224,7 +84230,7 @@ coalossal: {
 applin: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		dragonpulse: ["9M"],
 		dracometeor: ["9M"],
 		gigadrain: ["9M"],
@@ -84386,7 +84392,7 @@ appletun: {
 silicobra: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		attract: ["8M"],
 		belch: ["9E", "8E"],
 		bodyslam: ["9M"],
@@ -84492,7 +84498,7 @@ sandaconda: {
 cramorant: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M", "9E", "8E"],
 		agility: ["9M", "8M"],
@@ -84559,7 +84565,7 @@ cramorant: {
 arrokuda: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acupressure: ["9E", "8E"],
 		agility: ["9M", "9L18", "8M", "8L18"],
 		aquajet: ["9L1", "8L1"],
@@ -84897,6 +84903,9 @@ toxtricitylowkey: {
 },
 sizzlipede: {
 	learnset: {
+		toxic: ["8M"],
+		uturn: ["8M"],
+		morningsun: ["8M"],
 		hiddenpower: ["7M"],
 		attract: ["8M"],
 		bite: ["8L10"],
@@ -84989,6 +84998,7 @@ centiskorch: {
 },
 clobbopus: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		attract: ["8M"],
 		bind: ["8L10"],
@@ -85091,7 +85101,7 @@ grapploct: {
 sinistea: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		allyswitch: ["9E", "8M"],
 		aromatherapy: ["8L30"],
 		aromaticmist: ["9L6", "8L6"],
@@ -85143,7 +85153,7 @@ sinistea: {
 sinisteaantique: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		allyswitch: ["9E"],
 		aromatherapy: ["8S0"],
 		aromaticmist: ["9L6"],
@@ -85256,7 +85266,7 @@ polteageist: {
 hatenna: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		afteryou: ["9E", "8E"],
 		aromatherapy: ["8L15"],
 		aromaticmist: ["9L15", "8E"],
@@ -85440,7 +85450,7 @@ hatterene: {
 impidimp: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		assurance: ["9L16", "8M", "8L16"],
 		attract: ["8M"],
 		bite: ["9L4", "8L4"],
@@ -85636,7 +85646,7 @@ grimmsnarl: {
 milcery: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		moonblast: ["9M"],
 		teleport: ["9M"],
 		gigadrain: ["9M"],
@@ -85737,7 +85747,7 @@ alcremie: {
 falinks: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		stoneedge: ["9M"],
 		earthquake: ["9M"],
 		agility: ["9M", "8M"],
@@ -85802,7 +85812,7 @@ falinks: {
 pincurchin: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		voltswitch: ["9M"],
 		acupressure: ["9L55", "8L55"],
 		assurance: ["8M"],
@@ -85908,7 +85918,7 @@ snom: {
 frosmoth: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		roost: ["9M"],
 		earthpower: ["9M"],
 		freezedry: ["9M"],
@@ -85973,7 +85983,7 @@ frosmoth: {
 stonjourner: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		spikes: ["9M"],
 		ancientpower: ["9E", "8E"],
 		assurance: ["8M"],
@@ -86035,7 +86045,7 @@ stonjourner: {
 eiscue: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		iceshard: ["9M"],
 		teeterdance: ["9M"],
 		agility: ["9M", "8M"],
@@ -86098,7 +86108,7 @@ eiscue: {
 indeedee: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		afteryou: ["9L25", "8L25"],
 		allyswitch: ["8M"],
 		aromatherapy: ["8L30"],
@@ -86161,7 +86171,7 @@ indeedee: {
 indeedeef: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		alluringvoice: ["9M"],
 		allyswitch: ["8M"],
 		aromatherapy: ["8L30"],
@@ -86227,7 +86237,7 @@ indeedeef: {
 morpeko: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L40", "8M", "8L40"],
 		assurance: ["8M"],
 		attract: ["8M"],
@@ -86307,7 +86317,7 @@ morpeko: {
 cufant: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		attract: ["8M"],
 		belch: ["9E", "8E"],
 		bodypress: ["9M", "8M"],
@@ -86439,6 +86449,7 @@ copperajah: {
 },
 dracozolt: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		aerialace: ["8L14"],
 		ancientpower: ["8L21"],
@@ -86506,6 +86517,7 @@ dracozolt: {
 },
 arctozolt: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		ancientpower: ["8L21"],
 		avalanche: ["8M", "8L35"],
@@ -86629,6 +86641,7 @@ dracovish: {
 },
 arctovish: {
 	learnset: {
+		toxic: ["8M"],
 		hiddenpower: ["7M"],
 		ancientpower: ["8L21"],
 		auroraveil: ["8L35"],
@@ -86686,7 +86699,7 @@ duraludon: {
 		hiddenpower: ["7M"],
 		focusblast: ["9M"],
 		aurasphere: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		flamethrower: ["9M"],
 		fireblast: ["9M"],
 		attract: ["8M"],
@@ -86754,7 +86767,7 @@ duraludon: {
 dreepy: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		shadowball: ['9M'],
 		hex: ['9M'],
 		willowisp: ['9M'],
@@ -86858,7 +86871,7 @@ drakloak: {
 dragapult: {
 	learnset: {
 		defog: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		agility: ["9M", "9L24", "8M", "8L24"],
 		allyswitch: ["8M"],
@@ -86937,7 +86950,7 @@ dragapult: {
 zacian: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "8M"],
 		airslash: ["9M", "8M"],
 		assurance: ["8M"],
@@ -87017,7 +87030,7 @@ zaciancrowned: {
 zamazenta: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "8M"],
 		bite: ["9L1", "8L1"],
 		bodypress: ["9M"],
@@ -87165,7 +87178,7 @@ eternatus: {
 kubfu: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		aerialace: ["9M", "9L12", "8L12"],
 		attract: ["8M"],
@@ -87380,7 +87393,7 @@ zarude: {
 		hiddenpower: ["7M"],
 		pursuit: ["9M"],
 		suckerpunch: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		aerialace: ["9M"],
 		assurance: ["8M"],
@@ -87473,7 +87486,7 @@ zarudedada: {
 	learnset: {
 		hiddenpower: ["7M"],
 		pursuit: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		aerialace: ["9M"],
 		assurance: ["8M"],
@@ -87564,7 +87577,7 @@ zarudedada: {
 },
 regieleki: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		energyball: ["9M"],
 		hypervoice: ["9M"],
 		acrobatics: ["9M", "8M"],
@@ -87623,7 +87636,7 @@ regieleki: {
 regidrago: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		ironhead: ["9M"],
 		flashcannon: ["9M"],
 		flamethrower: ["9M"],
@@ -87680,7 +87693,7 @@ regidrago: {
 glastrier: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		mountaingale: ["9M"],
 		iceshard: ["9M"],
 		assurance: ["8M"],
@@ -87805,7 +87818,7 @@ spectrier: {
 calyrex: {
 	learnset: {
 		iceshard: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "8M"],
 		allyswitch: ["8M"],
 		aromatherapy: ["8L40"],
@@ -87884,7 +87897,7 @@ calyrex: {
 calyrexice: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "8M"],
 		allyswitch: ["8M"],
 		aromatherapy: ["8L40"],
@@ -88001,7 +88014,7 @@ calyrexice: {
 },
 calyrexshadow: {
 	learnset: {
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L1", "8M", "8L1", "8S0"],
 		allyswitch: ["8M"],
 		aromatherapy: ["8L40"],
@@ -88114,7 +88127,7 @@ enamorus: {
 		uturn: ["9M"],
 		defog: ["9M"],
 		knockoff: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M"],
 		alluringvoice: ["9M"],
 		astonish: ["9L1"],
@@ -88176,7 +88189,7 @@ enamorustherian: {
 		uturn: ["9M"],
 		defog: ["9M"],
 		knockoff: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M"],
 		alluringvoice: ["9M"],
 		astonish: ["9L1"],
@@ -88233,7 +88246,7 @@ enamorustherian: {
 sprigatito: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		agility: ["9M"],
 		allyswitch: ["9E"],
@@ -88413,7 +88426,7 @@ meowscarada: {
 fuecoco: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		belch: ["9E"],
 		bite: ["9L12"],
 		bodyslam: ["9M"],
@@ -88579,7 +88592,7 @@ skeledirge: {
 quaxly: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "9L31"],
 		aerialace: ["9M"],
 		aircutter: ["9M"],
@@ -88741,7 +88754,7 @@ quaquaval: {
 lechonk: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		milkdrink: ["9M"],
 		bodyslam: ["9M"],
 		bulldoze: ["9M"],
@@ -88899,7 +88912,7 @@ oinkolognef: {
 tarountula: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		rapidspin: ["9M"],
 		assurance: ["9L8"],
 		block: ["9L18"],
@@ -89012,7 +89025,7 @@ spidops: {
 nymble: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L30"],
 		assurance: ["9L9"],
 		astonish: ["9L6"],
@@ -89104,7 +89117,7 @@ lokix: {
 rellor: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bodypress: ["9M"],
 		energyball: ["9M"],
 		electroball: ["9M"],
@@ -89220,7 +89233,7 @@ rabsca: {
 greavard: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		willowisp: ["9M"],
 		allyswitch: ["9E"],
 		bite: ["9L6"],
@@ -89333,7 +89346,7 @@ houndstone: {
 flittle: {
 	learnset: {
 		//hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L29"],
 		allyswitch: ["9E"],
 		babydolleyes: ["9L8"],
@@ -89450,7 +89463,7 @@ espathra: {
 farigiraf: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		healbell: ["9M"],
 		agility: ["9M", "9L23"],
 		amnesia: ["9M"],
@@ -89531,7 +89544,7 @@ farigiraf: {
 wiglett: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		flipturn: ["9M"],
 		icespinner: ["9M"],
 		earthquake: ["9M"],
@@ -89629,7 +89642,7 @@ wugtrio: {
 dondozo: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		aquatail: ["9L40"],
 		avalanche: ["9M"],
 		bodypress: ["9M"],
@@ -89681,7 +89694,7 @@ dondozo: {
 veluza: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		swordsdance: ["9M"],
 		agility: ["9M"],
 		aquacutter: ["9L25"],
@@ -89737,7 +89750,7 @@ veluza: {
 finizen: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "9L29"],
 		agility: ["9M"],
 		aquajet: ["9L13"],
@@ -89857,7 +89870,7 @@ palafin: {
 smoliv: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		absorb: ["9L5"],
 		bulletseed: ["9M"],
 		charm: ["9M"],
@@ -89992,7 +90005,7 @@ arboliva: {
 capsakid: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		darkpulse: ["9M"],
 		earthpower: ["9M"],
 		sleeppowder: ["9M"],
@@ -90098,7 +90111,7 @@ scovillain: {
 tadbulb: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		surf: ["9M"],
 		acidspray: ["9M"],
 		charge: ["9M", "9L17"],
@@ -90312,7 +90325,7 @@ revavroom: {
 orthworm: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bodypress: ["9M"],
 		bodyslam: ["9M"],
 		bulldoze: ["9M", "9L16"],
@@ -90366,7 +90379,7 @@ orthworm: {
 tandemaus: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		aerialace: ["9M"],
 		afteryou: ["9E"],
 		agility: ["9M"],
@@ -90475,7 +90488,7 @@ maushold: {
 cetoddle: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		amnesia: ["9M", "9L40"],
 		avalanche: ["9M", "9L27"],
 		bellydrum: ["9E"],
@@ -90585,7 +90598,7 @@ cetitan: {
 frigibax: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		dragondance: ["9M"],
 		iceshard: ["9M"],
 		aquatail: ["9E"],
@@ -90728,7 +90741,7 @@ baxcalibur: {
 tatsugiri: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		scald: ["9M"],
 		icebeam: ["9M"],
 		flipturn: ["9M"],
@@ -90787,7 +90800,7 @@ tatsugiristretchy: {
 cyclizar: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
 		agility: ["9M"],
@@ -90849,7 +90862,7 @@ cyclizar: {
 pawmi: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M", "9L40"],
 		batonpass: ["9M"],
 		bite: ["9L19"],
@@ -91041,7 +91054,7 @@ pawmot: {
 wattrel: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
 		agility: ["9M", "9L32"],
@@ -91147,7 +91160,7 @@ bombirdier: {
 		hiddenpower: ["7M"],
 		defog: ["9M"],
 		pursuit: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		accelerock: ["9M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
@@ -91218,7 +91231,7 @@ bombirdier: {
 squawkabilly: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		superpower: ["9M"],
 		rockslide: ["9M"],
 		suckerpunch: ["9M"],
@@ -91275,7 +91288,7 @@ flamigo: {
 	learnset: {
 		hiddenpower: ["7M"],
 		defog: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
 		agility: ["9M"],
@@ -91335,7 +91348,7 @@ flamigo: {
 klawf: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		earthquake: ["9M"],
 		//spikyshield: ["9M"],
 		spikes: ["9M"],
@@ -91403,7 +91416,7 @@ klawf: {
 nacli: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		saltcure: ['9M'],
 		ancientpower: ["9E"],
 		bodyslam: ["9M"],
@@ -91775,7 +91788,7 @@ grafaiai: {
 fidough: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M"],
 		alluringvoice: ["9M"],
 		babydolleyes: ["9L15"],
@@ -91885,7 +91898,7 @@ dachsbun: {
 maschiff: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bite: ["9L14"],
 		bodyslam: ["9M"],
 		charm: ["9M"],
@@ -91990,7 +92003,7 @@ mabosstiff: {
 bramblin: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		absorb: ["9L5"],
 		astonish: ["9L1"],
 		beatup: ["9E"],
@@ -92165,7 +92178,7 @@ gholdengo: {
 greattusk: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bodypress: ["9M"],
 		bodyslam: ["9M"],
 		brickbreak: ["9M", "9L28", "9S0"],
@@ -92234,7 +92247,7 @@ greattusk: {
 brutebonnet: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		grassyglide: ["9M"],
 		knockoff: ["9M"],
 		absorb: ["9L1"],
@@ -92297,7 +92310,7 @@ brutebonnet: {
 sandyshocks: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bodypress: ["9M"],
 		bodyslam: ["9M"],
 		bulldoze: ["9M", "9L14"],
@@ -92361,7 +92374,7 @@ sandyshocks: {
 screamtail: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		moonlight: ["9M"],
 		healbell: ["9M"],
 		moonblast: ["9M"],
@@ -92454,7 +92467,7 @@ screamtail: {
 fluttermane: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		willowisp:["9M"],
 		astonish: ["9L1"],
 		calmmind: ["9M"],
@@ -92515,7 +92528,7 @@ slitherwing: {
 	learnset: {
 		hiddenpower: ["7M"],
 		roost: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		rapidspin: ["9M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
@@ -92584,7 +92597,7 @@ roaringmoon: {
 	learnset: {
 		hiddenpower: ["7M"],
 		pursuit: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		defog: ["9M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
@@ -92663,7 +92676,7 @@ roaringmoon: {
 irontreads: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bodypress: ["9M"],
 		bodyslam: ["9M"],
 		bulldoze: ["9M", "9L7"],
@@ -92789,7 +92802,7 @@ ironmoth: {
 ironhands: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		bulkup: ["9M"],
 		knockoff: ["9M"],
 		armthrust: ["9L1"],
@@ -92857,7 +92870,7 @@ ironhands: {
 ironjugulis: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		roost: ["9M"],
 		defog: ["9M"],
 		nastyplot: ["9M"],
@@ -92926,7 +92939,7 @@ ironjugulis: {
 ironthorns: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		accelerock: ["9M"],
 		zingzap: ["9M"],
 		shoreup: ["9M"],
@@ -93017,7 +93030,7 @@ ironbundle: {
 		hiddenpower: ["7M"],
 		surf: ["9M"],
 		//voltswitch: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		airslash: ["9M"],
 		hurricane: ["9M"],
 		bravebird: ["9M"],
@@ -93076,7 +93089,7 @@ ironvaliant: {
 	learnset: {
 		hiddenpower: ["7M"],
 		playrough: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		aerialace: ["9M"],
 		agility: ["9M"],
 		aurasphere: ["9M"],
@@ -93166,7 +93179,7 @@ ironvaliant: {
 tinglu: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		headlongrush: ["9M"],
 		healbell: ["9M"],
 		bodypress: ["9M"],
@@ -93224,7 +93237,7 @@ tinglu: {
 chienpao: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
 		avalanche: ["9M"],
@@ -93403,7 +93416,7 @@ chiyu: {
 koraidon: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		agility: ["9M", "9L35"],
 		ancientpower: ["9L14"],
@@ -93486,7 +93499,7 @@ koraidon: {
 miraidon: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		acrobatics: ["9M"],
 		agility: ["9M", "9L35"],
 		bodyslam: ["9M"],
@@ -93553,7 +93566,7 @@ miraidon: {
 tinkatink: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		astonish: ["9L1"],
 		babydolleyes: ["9L5"],
 		brutalswing: ["9L24"],
@@ -93707,7 +93720,7 @@ tinkaton: {
 charcadet: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		shadowball: ["9M"],
 		irondefense: ["9M"],
 		lightscreen: ["9M"],
@@ -94003,7 +94016,7 @@ toedscruel: {
 walkingwake: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		//calmmind: ["9M"],
 		shockwave: ["9M"],
 		agility: ["9M"],
@@ -94068,7 +94081,7 @@ walkingwake: {
 ironleaves: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		aerialace: ["9M"],
 		agility: ["9M"],
 		airslash: ["9M"],
@@ -94657,7 +94670,7 @@ archaludon: {
 		hiddenpower: ["7M"],
 		voltswitch: ["9M"],
 		focusblast: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		flamethrower: ["9M"],
 		fireblast: ["9M"],
 		aurasphere: ["9M"],
@@ -94781,7 +94794,7 @@ hydrapple: {
 gougingfire: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		ancientpower: ["9L1"],
 		bite: ["9L21"],
 		bodyslam: ["9M"],
@@ -94850,7 +94863,7 @@ ragingbolt: {
 		hiddenpower: ["7M"],
 		//paraboliccharge: ["9M"],
 		flamethrower: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		ancientpower: ["9L1"],
 		bodypress: ["9M", "9L84"],
 		bodyslam: ["9M"],
@@ -94911,7 +94924,7 @@ ragingbolt: {
 ironboulder: {
 	learnset: {
 		hiddenpower: ["7M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		stealthrock: ["9M"],
 		aerialace: ["9M"],
 		agility: ["9M", "9L21"],
@@ -94976,7 +94989,7 @@ ironcrown: {
 		stoneedge: ["9M"],
 		trick: ["9M"],
 		aurasphere: ["9M"],
-		toxic: ["9M"],
+		toxic: ["9M", "8M"],
 		agility: ["9M"],
 		airslash: ["9M"],
 		bodyslam: ["9M"],
