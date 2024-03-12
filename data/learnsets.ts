@@ -13804,7 +13804,10 @@ haunter: {
 },
 gengar: {
 	learnset: {
+		honeclaws: ["8M"],
+		pursuit: ["8M"],
 		corrosivegas: ["9M", "9M"],
+		shadowsneak: ["9M"],
 		aurasphere: ["9M"],
 		acidspray: ["9M"],
 		allyswitch: ["8M", "7T"],
@@ -60712,6 +60715,7 @@ cofagrigus: {
 },
 runerigus: {
 	learnset: {
+		shoreup: ["8M"],
 		allyswitch: ["8M"],
 		amnesia: ["8M"],
 		astonish: ["8L1"],
@@ -68338,8 +68342,8 @@ genesect: {
 		electroweb: ["8M", "7T", "6T", "5T"],
 		endure: ["8M"],
 		energyball: ["8M", "7M", "6M", "5M"],
-		//explosion: ["7M", "6M", "5M"],
-		extremespeed: ["5S2"],
+		explosion: ["7M", "6M", "5M"],
+		//extremespeed: ["5S2"],
 		facade: ["8M", "7M", "6M", "5M"],
 		fellstinger: ["8L21", "8S4", "7L1", "6L1"],
 		flamecharge: ["8L28", "7M", "7L18", "6M", "6L18", "5M", "5L18"],
@@ -82227,7 +82231,7 @@ naganadel: {
 		irontail: ["8M", "7T"],
 		laserfocus: ["7T"],
 		leechlife: ["8M", "7M"],
-		nastyplot: ["8M", "8L42", "7L31"],
+		//nastyplot: ["8M", "8L42", "7L31"],
 		outrage: ["8M", "7T"],
 		peck: ["8L1", "7L1"],
 		pinmissile: ["8M"],
