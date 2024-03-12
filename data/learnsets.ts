@@ -17517,7 +17517,7 @@ kangaskhan: {
 		safeguard: ["8M", "7M", "7V", "6M", "5M", "4E", "3E"],
 		sandstorm: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		secretpower: ["6M", "4M", "3M"],
-		seismictoss: ["8V", "7V", "3T"],
+		//seismictoss: ["8V", "7V", "3T"],
 		shadowball: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 		shadowclaw: ["8M", "7M", "6M", "5M", "4M"],
 		shockwave: ["7T", "6T", "4M", "3M"],
@@ -21835,6 +21835,7 @@ kabuto: {
 },
 kabutops: {
 	learnset: {
+		aquacutter: ["9M"],
 		absorb: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		ancientpower: ["8L30", "7L54", "7V", "6L54", "5L54", "4T", "4L54", "3L65"],
@@ -31967,6 +31968,8 @@ mantyke: {
 },
 mantine: {
 	learnset: {
+		uturn: ["8M"],
+		flipturn: ["8M"],
 		acrobatics: ["8M", "7M", "6M", "5M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		agility: ["8M", "8L20", "7L32", "7V", "6L32", "5L19", "4L19", "3L29"],
@@ -39253,6 +39256,7 @@ lairon: {
 },
 aggron: {
 	learnset: {
+		slackoff: ["9M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		ancientpower: ["4T"],
 		aquatail: ["7T", "6T", "5T", "4T"],
@@ -40635,6 +40639,8 @@ carvanha: {
 },
 sharpedo: {
 	learnset: {
+		swordsdance: ["8M"],
+		wavecrash: ["8M"],
 		agility: ["8M", "8L40", "7L45", "6L45", "5L45", "4L45", "3L53"],
 		ancientpower: ["4T"],
 		aquajet: ["8L1", "7L11", "6L11", "6S0", "5L34", "4L34"],
@@ -79391,6 +79397,7 @@ typenull: {
 },
 silvally: {
 	learnset: {
+		recover: ["8M"],
 		aerialace: ["8L1", "7M", "7L20"],
 		airslash: ["8M", "8L30", "7L60"],
 		bite: ["8L1", "7L15"],
@@ -80657,6 +80664,7 @@ tapukoko: {
 	learnset: {
 		playrough: ["8M"],
 		moonblast: ["8M"],
+		closecombat: ["8M"],
 		acrobatics: ["8M", "7M"],
 		aerialace: ["7M"],
 		agility: ["8M", "8L35", "7L53", "7S0", "7S1"],
@@ -81209,6 +81217,7 @@ lunala: {
 },
 nihilego: {
 	learnset: {
+		earthpower: ["8M"],
 		acid: ["8L5", "7L1"],
 		acidspray: ["8L15", "8S2", "7L47", "7S0", "7S1"],
 		allyswitch: ["8M", "7T"],
@@ -82141,6 +82150,8 @@ marshadow: {
 },
 poipole: {
 	learnset: {
+		roost: ["9M"],
+		corrosivegas: ["9M"],
 		acid: ["8L1", "8S2", "7L1"],
 		charm: ["8M", "8L21", "7L19", "7S0"],
 		confide: ["7M"],
@@ -82158,7 +82169,7 @@ poipole: {
 		helpinghand: ["8M", "8L1", "8S2", "7T", "7L1"],
 		hiddenpower: ["7M"],
 		irontail: ["8M", "7T"],
-		nastyplot: ["8M", "8L42", "7L31", "7S0", "7S1"],
+		//nastyplot: ["8M", "8L42", "7L31", "7S0", "7S1"],
 		peck: ["8L1", "7L1"],
 		pinmissile: ["8M"],
 		poisonjab: ["8M", "8L49", "7M", "7L37", "7S0", "7S1"],
