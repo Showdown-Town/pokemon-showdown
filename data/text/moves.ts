@@ -5491,11 +5491,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	scald: {
 		name: "Scald",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "Has a 20% chance to burn the target. The target thaws out if it is frozen.",
+		shortDesc: "20% chance to burn the target. Thaws target.",
 		gen5: {
-			desc: "Has a 30% chance to burn the target.",
-			shortDesc: "30% chance to burn the target.",
+			desc: "Has a 20% chance to burn the target.",
+			shortDesc: "20% chance to burn the target.",
 		},
 	},
 	scaleshot: {
