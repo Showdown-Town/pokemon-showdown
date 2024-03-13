@@ -1069,7 +1069,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	pinsir: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	pinsirmega: {
 		isNonstandard: "Past",
@@ -1171,7 +1171,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	glaceon: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	sylveon: {
 		tier: "AU",
@@ -1188,7 +1188,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	porygonz: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	omanyte: {
 		isNonstandard: "Past",
@@ -1793,7 +1793,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	blaziken: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	blazikenmega: {
 		isNonstandard: "Past",
@@ -4104,7 +4104,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	hawlucha: {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	dedenne: {
 		tier: "FU",
