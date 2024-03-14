@@ -829,6 +829,9 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	regenerator: {
 		inherit: true,
+		onSwitchOut(pokemon) {
+			pokemon.heal(pokemon.baseMaxhp / 33);
+		},
 		rating: 4.5,
 	},
 	ripen: {

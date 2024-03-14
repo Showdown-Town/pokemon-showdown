@@ -11750,7 +11750,8 @@ slowbrogalar: {
 	learnset: {
 		corrosivegas: ["9M"],
 		aurasphere: ["9M"],
-		futuresight: ["9M"],
+		futuresight: ["9M", "8M"],
+		teleport: ["9M", "8M"],
 		toxicspikes: ["9M"],
 		acid: ["9L1", "8L1"],
 		acidspray: ["9M"],
@@ -12006,7 +12007,7 @@ slowkinggalar: {
 	learnset: {
 		corrosivegas: ["9M"],
 		aurasphere: ["9M"],
-		teleport: ["9M", "9M"],
+		teleport: ["9M", "8M"],
 		acid: ["9L1", "8L1"],
 		acidspray: ["9M"],
 		amnesia: ["9M", "9L27", "8M", "8L27"],
@@ -22439,8 +22440,9 @@ articuno: {
 articunogalar: {
 	learnset: {
 		toxic: ["9M", "8M"],
-		defog: ["9M"],
-		earthpower: ["9M", ],
+		defog: ["9M", "8M"],
+		roost: ["9M", "8M"],
+		earthpower: ["9M", "8M" ],
 		weatherball: ["9M", ],
 		agility: ["9M", "9L20", "8M", "8L20"],
 		aircutter: ["9M"],
@@ -22618,8 +22620,8 @@ zapdosgalar: {
 	learnset: {
 		knockoff: ["9M"],
 		toxic: ["9M", "8M"],
-		defog: ["9M", ],
-		roost: ["9M", "9M", ],
+		defog: ["9M", "8M" ],
+		roost: ["9M", "9M", "8M"],
 		acrobatics: ["9M", "8M"],
 		aerialace: ["9M"],
 		agility: ["9M", "9L20", "8M", "8L20"],
@@ -22796,8 +22798,8 @@ moltresgalar: {
 	learnset: {
 		knockoff: ["9M"],
 		toxic: ["9M", "8M"],
-		defog: ["9M", ],
-		roost: ["9M", "9M", ],
+		defog: ["9M", "8M" ],
+		roost: ["9M", "9M", "8M" ],
 		acrobatics: ["9M"],
 		aerialace: ["9M"],
 		afteryou: ["9L40", "8L40"],
@@ -33348,7 +33350,7 @@ tyranitar: {
 		bulkup: ["9M"],
 		accelerock: ["9M"],
 		partingshot: ["9M"],
-		suckerpunch: ["9M", ],
+		suckerpunch: ["9M", "8M" ],
 		swordsdance: ["9M", ],
 		spikes: ["9M", ],
 		meteorbeam: ["9M"],
@@ -34737,9 +34739,9 @@ marshtomp: {
 },
 swampert: {
 	learnset: {
-		recover: ["9M"],
-		aquajet: ["9M"],
-		closecombat: ["9M"],
+		recover: ["9M", "8M"],
+		aquajet: ["9M", "8M"],
+		closecombat: ["9M", "8M"],
 		icespinner: ["9M"],
 		amnesia: ["9M", "9L35", "8M", "8L35"],
 		ancientpower: ["4T"],
@@ -43642,10 +43644,10 @@ feebas: {
 },
 milotic: {
 	learnset: {
-		moonblast: ["9M"],
+		moonblast: ["9M", "8M"],
 		healbell: ["9M"],
 		//sparklingaria: ["9M"],
-		dazzlinggleam: ["9M"],
+		dazzlinggleam: ["9M", "8M"],
 		calmmind: ["9M"],
 		alluringvoice: ["9M"],
 		aquaring: ["9L12", "8L12", "7L17", "6L21", "5L49", "4L49"],
@@ -80926,7 +80928,7 @@ tapubulu: {
 },
 tapufini: {
 	learnset: {
-		recover: ["8M"],
+		recover: ["9M"],
 		aquaring: ["8L15", "7L53", "7S0", "7S1"],
 		blizzard: ["8M", "7M"],
 		brine: ["8M", "8L25", "8S2", "7L32"],
@@ -81854,6 +81856,7 @@ necrozmaultra: {
 },
 magearna: {
 	learnset: {
+		trick: ["9M", "9L54"],
 		afteryou: ["7T"],
 		//agility: ["9M", "8M"],
 		aurasphere: ["9M", "9L66", "8M", "8L66", "7L81"],
@@ -81952,7 +81955,7 @@ magearna: {
 		thunderbolt: ["9M", "8M", "7M"],
 		thunderwave: ["9M", "8M", "7M"],
 		triattack: ["8M"],
-		trick: ["9M", "9L54", "8M"],
+		//trick: ["9M", "9L54", "8M"],
 		trickroom: ["9M", "8M", "7M"],
 		trumpcard: ["7L97"],
 		voltswitch: ["9M", "8M", "7M"],

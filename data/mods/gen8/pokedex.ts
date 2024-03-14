@@ -15,6 +15,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Inner Focus", 1: "Keen Eye", H: "Poison Touch"},
 	},
+	mudkip: {
+		inherit: true,
+		abilities: {0: "Torrent", H: "Natural Cure"},
+	},
+	marshtomp: {
+		inherit: true,
+		abilities: {0: "Torrent", H: "Natural Cure"},
+	},
+	swampert: {
+		inherit: true,
+		abilities: {0: "Torrent", H: "Natural Cure"},
+	},
 	shiftry: {
 		inherit: true,
 		abilities: {0: "Chlorophyll", 1: "Early Bird", H: "Pickpocket"},
