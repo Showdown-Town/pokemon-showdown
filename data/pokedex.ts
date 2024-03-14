@@ -16167,7 +16167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 862,
 		name: "Obstagoon",
 		types: ["Dark", "Normal"],
-		baseStats: {hp: 93, atk: 90, def: 101, spa: 60, spd: 81, spe: 95},
+		baseStats: {hp: 93, atk: 100, def: 101, spa: 60, spd: 81, spe: 95},
 		abilities: {0: "Reckless", 1: "Guts", H: "Defiant"},
 		heightm: 1.6,
 		weightkg: 46,

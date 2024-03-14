@@ -9958,6 +9958,7 @@ machoke: {
 },
 machamp: {
 	learnset: {
+		machpunch: ["8M"],
 		assurance: ["8M"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		bide: ["8V", "7V"],
@@ -35366,6 +35367,10 @@ linoonegalar: {
 obstagoon: {
 	learnset: {
 		assurance: ["8M"],
+		suckerpunch: ["8M"],
+		swordsdance: ["8M"],
+		pursuit: ["8M"],
+		quickattack: ["8M"],
 		attract: ["8M"],
 		babydolleyes: ["8L1"],
 		blizzard: ["8M"],
@@ -81652,6 +81657,7 @@ kartana: {
 },
 guzzlord: {
 	learnset: {
+		slackoff: ["8M"],
 		amnesia: ["8M"],
 		belch: ["8L60", "7L1"],
 		bite: ["8L1", "7L1"],

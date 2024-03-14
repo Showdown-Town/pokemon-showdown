@@ -1069,12 +1069,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	pinsir: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RUBL",
+		natDexTier: "RU",
 	},
 	pinsirmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	tauros: {
 //		isNonstandard: "Unobtainable",
@@ -5519,7 +5519,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	houndstone: {
 		tier: "LU",
 		doublesTier: "DOU",
-		natDexTier: "Uber",
+		natDexTier: "RU",
 	},
 	flittle: {
 		tier: "NFE",
