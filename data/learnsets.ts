@@ -21199,7 +21199,7 @@ leafeon: {
 },
 glaceon: {
 	learnset: {
-		earthpower: ["9M", ],
+		earthpower: ["9M", "8M"],
 		alluringvoice: ["9M"],
 		aquatail: ["7T", "6T", "5T", "4T"],
 		attract: ["8M", "7M", "6M", "5M", "4M"],
