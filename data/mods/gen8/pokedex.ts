@@ -31,6 +31,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Chlorophyll", 1: "Early Bird", H: "Pickpocket"},
 	},
+	altaria: {
+		inherit: true,
+		abilities: {0: "Natural Cure", H: "Cloud Nine"},
+	},
 	jirachi: {
 		inherit: true,
 		types: ["Steel", "Psychic"],
