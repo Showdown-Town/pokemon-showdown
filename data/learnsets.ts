@@ -40301,7 +40301,7 @@ roselia: {
 },
 roserade: {
 	learnset: {
-		focusblast: ["9M"],
+		focusblast: ["9M", "8M"],
 		corrosivegas: ["8M"],
 		absorb: ["8L1"],
 		aromatherapy: ["8L1"],
@@ -57591,7 +57591,7 @@ drilbur: {
 },
 excadrill: {
 	learnset: {
-		stoneedge: ["9M"],
+		stoneedge: ["9M", "8M"],
 		aerialace: ["9M", "7M", "6M", "5M"],
 		attract: ["8M", "7M", "6M", "5M"],
 		bodyslam: ["9M"],
@@ -59580,7 +59580,7 @@ krokorok: {
 },
 krookodile: {
 	learnset: {
-		swordsdance: ["9M"],
+		swordsdance: ["9M", "8M"],
 		uturn: ["9M", ],
 		aerialace: ["9M", "7M", "6M", "5M"],
 		aquatail: ["7T", "6T", "5T"],
