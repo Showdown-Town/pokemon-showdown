@@ -14048,7 +14048,7 @@ onix: {
 steelix: {
 	learnset: {
 		hardpress: ["9M"],
-		slackoff: ["9M"],
+		slackoff: ["9M", "8M", "3M"],
 		ancientpower: ["4T"],
 		aquatail: ["7T", "6T", "5T", "4T"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -16592,7 +16592,7 @@ rhydon: {
 	learnset: {
 		shoreup: ["9M"],
 		headlongrush: ["9M"],
-		spikes: ["9M"],
+		spikes: ["9M", "3M"],
 		headsmash: ["9M"],
 		ancientpower: ["4T"],
 		aquatail: ["7T", "6T", "5T", "4T"],
