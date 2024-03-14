@@ -31,6 +31,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Chlorophyll", 1: "Early Bird", H: "Pickpocket"},
 	},
+	jirachi: {
+		inherit: true,
+		types: ["Steel", "Psychic"],
+	},
 	piplup: {
 		inherit: true,
 		abilities: {0: "Torrent", H: "Defiant"},

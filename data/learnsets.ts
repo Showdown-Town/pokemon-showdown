@@ -15404,6 +15404,7 @@ marowak: {
 },
 marowakalola: {
 	learnset: {
+		shadowsneak: ["8M"],
 		aerialace: ["7M"],
 		allyswitch: ["8M", "7T"],
 		attract: ["8M", "7M"],
@@ -21945,7 +21946,7 @@ kabutops: {
 aerodactyl: {
 	learnset: {
 		headsmash: ["9M"],
-		uturn: ["9M"],
+		uturn: ["9M", "8M"],
 		dualchop: ["9M"],
 		stompingtantrum: ["9M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
