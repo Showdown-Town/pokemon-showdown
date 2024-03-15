@@ -53,7 +53,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	gallade: {
 		inherit: true,
-		abilities: {0: "Steadfast", H: "Justified"},
+		abilities: {0: "Steadfast", 1: "Defiant", H: "Justified"},
 	},
 	giratinaorigin: {
 		inherit: true,
