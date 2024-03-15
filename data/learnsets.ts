@@ -126,7 +126,7 @@
 	},
 bulbasaur: {
 	learnset: {
-		corrosivegas: ["9M"],
+		corrosivegas: ["9M", "8M"],
 		toxicspikes: ["9M"],
 		acidspray: ["9M"],
 		amnesia: ["8M", "7E", "6E", "5E", "4E"],
@@ -653,8 +653,8 @@ charmeleon: {
 charizard: {
 	learnset: {
 		lavaplume: ["9M"],
-		dracometeor: ["9M"],
-		uturn: ["9M"],
+		dracometeor: ["9M", "8M"],
+		uturn: ["9M", "8M"],
 		acrobatics: ["9M", "9S11", "8M"],
 		aerialace: ["9M", "7M", "6M", "5M", "4M", "3M"],
 		aircutter: ["9M", "4T"],
@@ -9637,6 +9637,7 @@ kadabra: {
 },
 alakazam: {
 	learnset: {
+		aurasphere: ["8M"],
 		allyswitch: ["8M", "8L15", "7T", "7L36", "6L24", "5M", "5L24"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		barrier: ["8V"],
@@ -11597,7 +11598,7 @@ slowpokegalar: {
 },
 slowbro: {
 	learnset: {
-		aurasphere: ["9M"],
+		aurasphere: ["9M", "8M"],
 		aerialace: ["7M", "6M", "5M"],
 		afteryou: ["7T", "6T", "5T"],
 		amnesia: ["9M", "9L27", "8M", "8L27", "8V", "7L43", "7V", "6L43", "5L43", "4L47", "3L36"],
@@ -11750,7 +11751,7 @@ slowbro: {
 slowbrogalar: {
 	learnset: {
 		corrosivegas: ["9M"],
-		aurasphere: ["9M"],
+		aurasphere: ["9M", "8M"],
 		futuresight: ["9M", "8M"],
 		teleport: ["9M", "8M"],
 		toxicspikes: ["9M"],
@@ -11866,7 +11867,7 @@ slowbrogalar: {
 },
 slowking: {
 	learnset: {
-		aurasphere: ["9M"],
+		aurasphere: ["9M", "8M"],
 		afteryou: ["7T", "6T", "5T"],
 		allyswitch: ["7T"],
 		amnesia: ["9M", "9L27", "8M", "8L27"],
@@ -12007,7 +12008,7 @@ slowking: {
 slowkinggalar: {
 	learnset: {
 		corrosivegas: ["9M"],
-		aurasphere: ["9M"],
+		aurasphere: ["9M", "8M"],
 		teleport: ["9M", "8M"],
 		acid: ["9L1", "8L1"],
 		acidspray: ["9M"],
@@ -13810,7 +13811,7 @@ gengar: {
 		pursuit: ["8M"],
 		corrosivegas: ["9M", "9M"],
 		shadowsneak: ["9M"],
-		aurasphere: ["9M"],
+		aurasphere: ["9M", "8M"],
 		acidspray: ["9M"],
 		allyswitch: ["8M", "7T"],
 		astonish: ["6S4"],
@@ -17341,6 +17342,7 @@ tangela: {
 },
 tangrowth: {
 	learnset: {
+		thunderwave: ["8M"],
 		absorb: ["8L1", "7L10", "6L10", "5L8", "4L8"],
 		aerialace: ["7M", "6M", "5M", "4M"],
 		amnesia: ["8M"],
@@ -20154,12 +20156,12 @@ magikarp: {
 },
 gyarados: {
 	learnset: {
-		liquidation: ["9M"],
-		powerwhip: ["9M"],
+		liquidation: ["9M", "8M"],
+		powerwhip: ["9M", "8M"],
 		icespinner: ["9M"],
-		dracometeor: ["9M"],
-		wavecrash: ["8M"],
-		flipturn: ["8M"],
+		dracometeor: ["9M", "8M"],
+		wavecrash: ["9M"],
+		flipturn: ["9M", "8M"],
 		aquatail: ["9L32", "8L32", "7T", "7L30", "6T", "6L35", "5T", "5L35", "4T", "4L35"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		avalanche: ["9M", "8M", "4M"],
@@ -21079,7 +21081,7 @@ umbreon: {
 		terablast: ["9M"],
 		thief: ["9M", "8M"],
 		throatchop: ["9M", "8M", "7T"],
-		thunderwave: ["9M"],
+		thunderwave: ["9M", "8M"],
 		torment: ["7M", "6M", "5M", "4M", "3M"],
 		toxic: ["9M", "9M", "7M", "7V", "7S3", "6M", "5M", "4M", "3M"],
 		trailblaze: ["9M"],
@@ -21480,8 +21482,8 @@ porygon2: {
 },
 porygonz: {
 	learnset: {
-		focusblast: ["9M"],
-		voltswitch: ["9M"],
+		focusblast: ["9M", "8M"],
+		voltswitch: ["9M", "8M"],
 		aerialace: ["7M", "6M", "5M", "4M"],
 		agility: ["9M", "9L30", "8M", "8L30", "7L12", "6L12", "5L12", "4L12"],
 		allyswitch: ["8M", "7T"],
@@ -29672,9 +29674,8 @@ granbull: {
 },
 qwilfish: {
 	learnset: {
-		flipturn: ["9M"],
-		painsplit: ["9M"],
-		explosion: ["9M"],
+		painsplit: ["9M", "4M"],
+		explosion: ["9M", "2M"],
 		rapidspin: ["9M", ],
 		acidspray: ["9M", "9E", "8E", "7E", "6E", "5E"],
 		acupressure: ["9L52", "8L60"],
@@ -29705,7 +29706,7 @@ qwilfish: {
 		facade: ["9M", "8M", "7M", "6M", "5M", "4M", "3M"],
 		fellstinger: ["9L12", "8L12", "7L1", "6L1"],
 		flail: ["9E", "8E", "7E", "7V", "6E", "5E", "4E", "3E"],
-		//flipturn: ["9M"],
+		flipturn: ["9M", "8M"],
 		frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 		gigaimpact: ["9M"],
 		gunkshot: ["9M"],
@@ -34105,8 +34106,8 @@ grovyle: {
 },
 sceptile: {
 	learnset: {
-		dracometeor: ["9M"],
-		uturn: ["9M"],
+		dracometeor: ["9M", "8M"],
+		uturn: ["9M", "8M"],
 		absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 		acrobatics: ["9M", "8M", "7M", "6M", "5M"],
 		aerialace: ["9M", "7M", "6M", "5M", "4M", "3M"],
@@ -40648,7 +40649,7 @@ carvanha: {
 sharpedo: {
 	learnset: {
 		swordsdance: ["8M"],
-		wavecrash: ["8M"],
+		wavecrash: ["9M"],
 		agility: ["8M", "8L40", "7L45", "6L45", "5L45", "4L45", "3L53"],
 		ancientpower: ["4T"],
 		aquajet: ["8L1", "7L11", "6L11", "6S0", "5L34", "4L34"],
@@ -44350,14 +44351,14 @@ dusclops: {
 },
 dusknoir: {
 	learnset: {
-		bulkup: ["9M"],
-		drainpunch: ["9M"],
-		recover: ["9M"],
-		magiccoat: ["9M"],
+		bulkup: ["9M", "8M"],
+		drainpunch: ["9M", "8M"],
+		recover: ["9M", "8M"],
+		magiccoat: ["9M", "8M"],
 		spiritshackle: ["9M"],
 		partingshot: ["9M"],
-		teleport: ["9M"],
-		swordsdance: ["9M"],
+		teleport: ["9M", "8M"],
+		swordsdance: ["9M", "8M"],
 		perishsong: ["9M"],
 		encore: ["9M"],
 		allyswitch: ["8M", "7T"],
@@ -52534,7 +52535,7 @@ toxicroak: {
 		bulldoze: ["9M", "8M", "7M", "6M", "5M"],
 		captivate: ["4M"],
 		chillingwater: ["9M"],
-		closecombat: ["9M"],
+		closecombat: ["9M", "8M"],
 		coaching: ["9M", "8T"],
 		confide: ["7M", "6M"],
 		corrosivegas: ["9M", "8T"],
@@ -57958,6 +57959,7 @@ gurdurr: {
 },
 conkeldurr: {
 	learnset: {
+		playrough: ["9M", "8M"],
 		attract: ["8M", "7M", "6M", "5M"],
 		bide: ["7L1", "6L1", "5L1"],
 		block: ["7T", "6T", "5T"],
@@ -58722,6 +58724,7 @@ whirlipede: {
 },
 scolipede: {
 	learnset: {
+		stoneedge: ["8M"],
 		agility: ["8M", "8L42", "7L33", "6L33", "5L33"],
 		aquatail: ["7T", "6T", "5T"],
 		assurance: ["8M"],
@@ -67008,7 +67011,7 @@ volcarona: {
 },
 cobalion: {
 	learnset: {
-		headlongrush: ["9M", "8M"],
+		headlongrush: ["9M"],
 		wildcharge: ["9M", "8M"],
 		aerialace: ["9M", "7M", "6M", "5M"],
 		airslash: ["9M", "8M"],
@@ -67105,7 +67108,7 @@ cobalion: {
 },
 terrakion: {
 	learnset: {
-		headlongrush: ["9M", "8M"],
+		headlongrush: ["9M"],
 		wildcharge: ["9M", "8M"],
 		aerialace: ["9M", "7M", "6M", "5M"],
 		airslash: ["9M", "8M"],
@@ -67195,7 +67198,7 @@ terrakion: {
 },
 virizion: {
 	learnset: {
-		headlongrush: ["9M", "8M"],
+		headlongrush: ["9M"],
 		wildcharge: ["9M", "8M"],
 		uturn: ["9M", "8M"],
 		aerialace: ["9M", "7M", "6M", "5M"],
@@ -87416,7 +87419,7 @@ urshifurapidstrike: {
 zarude: {
 	learnset: {
 		hiddenpower: ["7M"],
-		pursuit: ["9M"],
+		pursuit: ["9M", "8M"],
 		suckerpunch: ["9M"],
 		toxic: ["9M", "8M"],
 		acrobatics: ["9M", "8M"],
@@ -87455,7 +87458,7 @@ zarude: {
 		hypervoice: ["9M", "8M"],
 		irontail: ["8M"],
 		junglehealing: ["9L90", "8L90"],
-		knockoff: ["9M"],
+		knockoff: ["9M", "8M"],
 		lashout: ["9M", "8T"],
 		leafstorm: ["9M"],
 		leer: ["9L6", "8L6"],

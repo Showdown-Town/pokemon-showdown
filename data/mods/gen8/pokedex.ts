@@ -7,6 +7,22 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Justified"},
 	},
+	kabutops: {
+		inherit: true,
+		abilities: {0: "Swift Swim", 1: "Battle Armor", H: "Weak Armor"},
+	},
+	scyther: {
+		inherit: true,
+		abilities: {0: "Swarm", 1: "Technician", H: "Steadfast"},
+	},
+	ninjask: {
+		inherit: true,
+		abilities: {0: "Speed Boost", H: "Infiltrator"},
+	},
+	leafeon: {
+		inherit: true,
+		abilities: {0: "Defiant", H: "Chlorophyll"},
+	},
 	typhlosionhisui: {
 		inherit: true,
 		abilities: {0: "Blaze", H: "Flash Fire"},
@@ -39,6 +55,22 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		types: ["Steel", "Psychic"],
 	},
+	celebi: {
+		inherit: true,
+		types: ["Grass", "Psychic"],
+	},
+	appletun: {
+		inherit: true,
+		abilities: {0: "Ripen", 1: "Gluttony", H: "Thick Fat"},
+	},
+	qwilfish: {
+		inherit: true,
+		abilities: {0: "Poison Point", 1: "Swift Swim", H: "Intimidate"},
+	},
+	alcremie: {
+		inherit: true,
+		abilities: {0: "Sweet Veil", H: "Aroma Veil"},
+	},
 	piplup: {
 		inherit: true,
 		abilities: {0: "Torrent", H: "Defiant"},
@@ -70,6 +102,26 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	braviaryhisui: {
 		inherit: true,
 		abilities: {0: "Keen Eye", 1: "Sheer Force", H: "Defiant"},
+	},
+	terrakion: {
+		inherit: true,
+		abilities: {0: "Justified"},
+	},
+	cobalion: {
+		inherit: true,
+		abilities: {0: "Justified"},
+	},
+	virizion: {
+		inherit: true,
+		abilities: {0: "Justified"},
+	},
+	keldeo: {
+		inherit: true,
+		abilities: {0: "Justified"},
+	},
+	keldeoresolute: {
+		inherit: true,
+		abilities: {0: "Justified"},
 	},
 	spewpa: {
 		inherit: true,

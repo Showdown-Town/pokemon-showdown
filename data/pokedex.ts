@@ -2817,7 +2817,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Starmie",
 		types: ["Water", "Psychic"],
 		gender: "N",
-		baseStats: {hp: 60, atk: 75, def: 85, spa: 100, spd: 85, spe: 115},
+		baseStats: {hp: 60, atk: 75, def: 85, spa: 110, spd: 85, spe: 115},
 		abilities: {0: "Illuminate", 1: "Natural Cure", H: "Analytic"},
 		heightm: 1.1,
 		weightkg: 80,

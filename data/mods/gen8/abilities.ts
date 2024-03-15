@@ -475,13 +475,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		rating: 4,
 	},
-	illuminate: {
-		inherit: true,
-		onTryBoost() {},
-		onModifyMove() {},
-		flags: {},
-		rating: 0,
-	},
 	illusion: {
 		inherit: true,
 		rating: 4.5,
