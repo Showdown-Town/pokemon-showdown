@@ -15878,7 +15878,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 851,
 		name: "Centiskorch",
 		types: ["Fire", "Bug"],
-		baseStats: {hp: 100, atk: 115, def: 65, spa: 90, spd: 90, spe: 65},
+		baseStats: {hp: 100, atk: 115, def: 65, spa: 65, spd: 90, spe: 90},
 		abilities: {0: "Flash Fire", 1: "White Smoke", H: "Flame Body"},
 		heightm: 3,
 		weightkg: 120,

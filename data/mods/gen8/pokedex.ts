@@ -51,6 +51,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Natural Cure", H: "Cloud Nine"},
 	},
+	cofagrigus: {
+		inherit: true,
+		abilities: {0: "Mummy"},
+	},
+	runerigus: {
+		inherit: true,
+		abilities: {0: "Wandering Spirit"},
+	},
 	jirachi: {
 		inherit: true,
 		types: ["Steel", "Psychic"],

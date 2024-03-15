@@ -4419,6 +4419,7 @@ nidorina: {
 },
 nidoqueen: {
 	learnset: {
+		moonlight: ["9M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		aquatail: ["7T", "6T", "5T", "4T"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -4729,6 +4730,7 @@ nidorino: {
 },
 nidoking: {
 	learnset: {
+		spikes: ["8M"],
 		amnesia: ["8M"],
 		aquatail: ["7T", "7S0", "6T", "5T", "4T"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -6306,6 +6308,9 @@ golbat: {
 },
 crobat: {
 	learnset: {
+		poisonjab: ["8M"],
+		toxicspikes: ["8M"],
+		gunkshot: ["9M"],
 		absorb: ["8L1", "7L1"],
 		acrobatics: ["8M", "7M", "6M", "6L33", "5M", "5L39"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -10350,8 +10355,8 @@ victreebel: {
 },
 tentacool: {
 	learnset: {
-		corrosivegas: ["9M"],
-		recover: ["9M"],
+		corrosivegas: ["9M", "8M"],
+		recover: ["9M", "8M"],
 		acid: ["9L4", "8L4", "8V", "7L10", "7V", "6L10", "5L12", "4L12", "3L19"],
 		acidarmor: ["9L32", "8L32"],
 		acidspray: ["9M", "7L22", "6L22", "5L26"],
@@ -10451,7 +10456,7 @@ tentacool: {
 },
 tentacruel: {
 	learnset: {
-		recover: ["9M"],
+		recover: ["9M", "8M"],
 		acid: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L12", "4L12", "3L19"],
 		acidarmor: ["9L34", "8L34"],
 		acidspray: ["9M", "7L22", "6L22", "5L26"],
@@ -14863,8 +14868,8 @@ electrodehisui: {
 },
 exeggcute: {
 	learnset: {
-		softboiled: ["9M"],
-		calmmind: ["9M"],
+		softboiled: ["9M", "8M"],
+		calmmind: ["9M", "8M"],
 		absorb: ["9L1", "8L1"],
 		ancientpower: ["9E", "8E", "7E", "7V", "6E", "5E", "4T", "4E", "3E"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -14966,7 +14971,7 @@ exeggcute: {
 exeggutor: {
 	learnset: {
 		softboiled: ["9M"],
-		focusblast: ["9M"],
+		focusblast: ["9M", "8M"],
 		absorb: ["9L1", "8L1"],
 		ancientpower: ["4T", "3S0"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -15084,7 +15089,7 @@ exeggutor: {
 exeggutoralola: {
 	learnset: {
 		softboiled: ["9M"],
-		focusblast: ["9M"],
+		focusblast: ["9M", "8M"],
 		absorb: ["9L1", "8L1"],
 		attract: ["8M", "7M"],
 		barrage: ["8V", "7L1"],
@@ -15778,6 +15783,7 @@ hitmonlee: {
 },
 hitmonchan: {
 	learnset: {
+		knockoff: ["9M", "8M"],
 		jetpunch: ["9M"],
 		agility: ["9M", "9L28", "8M", "8L28", "8V", "7L1", "7V", "6L6", "5L6", "4L6", "3L7"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -15821,7 +15827,7 @@ hitmonchan: {
 		helpinghand: ["9M", "9L1", "8M", "8L1", "8V", "7T", "6T", "5T", "4T", "3S0"],
 		hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 		icepunch: ["9M", "9L24", "8M", "8L24", "8V", "7T", "7L36", "7V", "6T", "6L36", "5T", "5L36", "4T", "4L31", "3T", "3L26"],
-		knockoff: ["9M"],
+		//knockoff: ["9M"],
 		laserfocus: ["7T"],
 		leer: ["8V"],
 		lowkick: ["9M", "8M", "7T", "6T", "5T", "4T"],
@@ -15890,8 +15896,8 @@ hitmonchan: {
 },
 hitmontop: {
 	learnset: {
-		knockoff: ["9M"],
-		uturn: ["9M"],
+		knockoff: ["9M", "8M"],
+		uturn: ["9M", "8M"],
 		spinout: ["9M"],
 		flamewheel: ["9M"],
 		shadowpunch: ["9M"],
@@ -21099,10 +21105,10 @@ umbreon: {
 },
 leafeon: {
 	learnset: {
-		knockoff: ["9M"],
-		psychocut: ["9M"],
-		sacredsword: ["9M", ],
-		nightslash: ["9M", ],
+		knockoff: ["9M", "4M"],
+		psychocut: ["9M", "4M"],
+		sacredsword: ["9M", "5M"],
+		nightslash: ["9M", "4M"],
 		xscissor: ["9M", ],
 		aerialace: ["9M", "7M", "6M", "5M", "4M"],
 		alluringvoice: ["9M"],
@@ -30025,13 +30031,13 @@ shuckle: {
 },
 heracross: {
 	learnset: {
-		uturn: ["9M"],
-		knockoff: ["9M"],
-		thunderpunch: ["9M", ],
-		icepunch: ["9M", ],
-		firstimpression: ["9M", ],
-		leechlife: ["9M"],
-		drainpunch: ["9M", ],
+		uturn: ["9M", "8M"],
+		knockoff: ["9M", "4M"],
+		thunderpunch: ["9M", "8M" ],
+		icepunch: ["9M", "8M" ],
+		firstimpression: ["9M"],
+		leechlife: ["9M", "8M"],
+		drainpunch: ["9M", "8M" ],
 		aerialace: ["9M", "9L15", "8L15", "7M", "7L10", "6M", "6L10", "5M", "5L13", "4M", "4L13"],
 		armthrust: ["9L1", "7L1", "6L1"],
 		assurance: ["8M"],
@@ -42976,7 +42982,7 @@ corphish: {
 },
 crawdaunt: {
 	learnset: {
-		pursuit: ["9M", "9M"],
+		pursuit: ["9M", "8M"],
 		suckerpunch: ["9M"],
 		flipturn: ["9M"],
 		wavecrash: ["9M"],
@@ -45970,10 +45976,10 @@ beldum: {
 		takedown: ["9M", "7L1", "6L1", "5L1", "5D", "4L1", "3L1"],
 		zenheadbutt: ["9M", "8M", "7T", "6T", "6S0", "5T", "5D", "4T"],
 		teleport: ["9M"],
-		trick: ["9M"],
-		stealthrock: ["9M"],
-		thunderwave: ["9M"],
-		trickroom: ["9M"],
+		trick: ["9M", "8M"],
+		stealthrock: ["9M", "8M"],
+		thunderwave: ["9M", "8M"],
+		trickroom: ["9M", "8M"],
 	},
 	eventData: [
 		{generation: 6, level: 5, shiny: true, moves: ["holdback", "ironhead", "zenheadbutt", "irondefense"], pokeball: "cherishball"},
@@ -46171,7 +46177,7 @@ metagross: {
 		steelbeam: ["9M", "8T"],
 		steelroller: ["8T"],
 		stompingtantrum: ["9M", "8M", "7T", "7S7"],
-		stoneedge: ["9M"],
+		stoneedge: ["9M", "8M"],
 		strength: ["6M", "5M", "4M", "3M"],
 		substitute: ["9M", "8M", "7M", "6M", "5M", "4M", "3T"],
 		sunnyday: ["9M", "8M", "7M", "6M", "5M", "4M", "3M"],
@@ -52222,6 +52228,7 @@ hippowdon: {
 },
 skorupi: {
 	learnset: {
+		spikes: ["9M"],
 		acupressure: ["8L45", "7L13", "6L13", "5L17", "4L17"],
 		aerialace: ["7M", "6M", "5M", "4M"],
 		agility: ["8M", "7E", "6E", "5E", "5D", "4E"],
@@ -62208,8 +62215,8 @@ duosion: {
 reuniclus: {
 	learnset: {
 		teleport: ["9M"],
-		thunderbolt: ["9M"],
-		aurasphere: ["9M"],
+		thunderbolt: ["9M", "8M"],
+		aurasphere: ["9M", "8M"],
 		afteryou: ["7T", "6T", "5T"],
 		allyswitch: ["9L28", "8M", "8L28", "7T"],
 		attract: ["8M", "7M", "6M", "5M"],
@@ -73484,9 +73491,9 @@ goodrahisui: {
 },
 klefki: {
 	learnset: {
-		moonblast: ["9M"],
-		healbell: ["9M"],
-		encore: ["9M", ],
+		moonblast: ["9M", "8M"],
+		healbell: ["9M", "8M"],
+		encore: ["9M", "8M" ],
 		taunt: ["9M"],
 		haze: ["9M"],
 		recover: ["9M"],
@@ -74211,7 +74218,7 @@ noibat: {
 },
 noivern: {
 	learnset: {
-		nastyplot: ["9M"],
+		nastyplot: ["9M", "8M"],
 		absorb: ["9L1", "8L1", "7L1"],
 		acrobatics: ["9M", "8M", "7M", "6M"],
 		aerialace: ["9M", "7M", "6M"],
@@ -85776,8 +85783,8 @@ falinks: {
 	learnset: {
 		hiddenpower: ["7M"],
 		toxic: ["9M", "8M"],
-		stoneedge: ["9M"],
-		earthquake: ["9M"],
+		stoneedge: ["9M", "8M"],
+		earthquake: ["9M", "8M"],
 		agility: ["9M", "8M"],
 		assurance: ["8M"],
 		beatup: ["8M"],

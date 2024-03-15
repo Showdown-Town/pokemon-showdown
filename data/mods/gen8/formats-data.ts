@@ -272,7 +272,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sandshrewalola: {
-		tier: "NUBL",
+		tier: "LC",
 		doublesTier: "LC",
 		natDexTier: "LC",
 	},
@@ -1088,7 +1088,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "NFE",
 	},
 	porygonz: {
-		tier: "NUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 		natDexTier: "UUBL",
 	},
@@ -2821,7 +2821,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "OU",
 	},
 	regigigas: {
-		tier: "ZU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
@@ -4744,7 +4744,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	inteleon: {
-		tier: "PUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
