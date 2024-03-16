@@ -3273,7 +3273,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Aerodactyl-Mega",
 		baseSpecies: "Aerodactyl",
 		forme: "Mega",
-		types: ["Rock", "Dragon"],
+		types: ["Rock", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 135, def: 85, spa: 70, spd: 95, spe: 150},
 		abilities: {0: "Tough Claws"},

@@ -51571,6 +51571,7 @@ spiritomb: {
 },
 gible: {
 	learnset: {
+		dragondance: ["9M"],
 		rockblast: ["9M"],
 		crunch: ["9M"],
 		spikes: ["9M"],
@@ -51740,6 +51741,7 @@ gabite: {
 },
 garchomp: {
 	learnset: {
+		dragondance: ["9M"],
 		defog: ["9M"],
 		rockblast: ["9M"],
 		extremespeed: ["9M"],
