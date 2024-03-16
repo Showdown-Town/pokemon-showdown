@@ -19741,6 +19741,8 @@ magmortar: {
 },
 pinsir: {
 	learnset: {
+		uturn: ["4M"],
+		megahorn: ["4M"],
 		attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 		bide: ["7V"],
 		bind: ["8L8", "8V", "7T", "7L4", "7V", "6T", "6L4", "5T", "5L4", "4L4", "3L7"],
@@ -43183,6 +43185,10 @@ baltoy: {
 },
 claydol: {
 	learnset: {
+		recover: ["8M"],
+		miracleeye: ["8M"],
+		twinbeam: ["8M"],
+		meteorbeam: ["8M"],
 		allyswitch: ["8M", "7T", "5M"],
 		ancientpower: ["8L18", "7L19", "6L19", "5L26", "4T", "4L25", "3L25"],
 		bodypress: ["8M"],
@@ -79069,6 +79075,10 @@ wimpod: {
 },
 golisopod: {
 	learnset: {
+		uturn: ["8M"],
+		recover: ["8M"],
+		earthquake: ["8M"],
+		stoneedge: ["8M"],
 		aerialace: ["7M"],
 		assurance: ["8M"],
 		attract: ["8M", "7M"],

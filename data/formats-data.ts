@@ -4684,7 +4684,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	kommoo: {
 		tier: "RUBL",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	kommoototem: {
 		isNonstandard: "Past",
@@ -5945,7 +5945,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	ogerponcornerstone: {
 		tier: "RUBL",
 		doublesTier: "DOU",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	hydrapple: {
 		tier: "RU",
