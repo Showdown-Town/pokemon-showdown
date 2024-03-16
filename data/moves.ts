@@ -781,7 +781,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	aurasphere: {
 		num: 396,
 		accuracy: true,
-		basePower: 80,
+		basePower: 85,
 		category: "Special",
 		name: "Aura Sphere",
 		pp: 20,
