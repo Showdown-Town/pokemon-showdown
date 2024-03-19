@@ -5368,7 +5368,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	urshifumega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	urshifurapidstrike: {
 //		isNonstandard: "Unobtainable",
@@ -5378,7 +5378,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	urshifurapidstrikemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "Uber",
 	},
 	urshifugmax: {
 		isNonstandard: "Past",
