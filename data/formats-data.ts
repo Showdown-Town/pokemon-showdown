@@ -3003,7 +3003,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	victini: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	snivy: {
 		tier: "LC",
@@ -4923,12 +4923,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	corviknight: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	corviknightmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	corviknightgmax: {
 		isNonstandard: "Past",

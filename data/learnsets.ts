@@ -33358,6 +33358,7 @@ pupitar: {
 },
 tyranitar: {
 	learnset: {
+		slackoff: ["9M"],
 		bulkup: ["9M"],
 		accelerock: ["9M"],
 		partingshot: ["9M"],
@@ -43447,6 +43448,9 @@ cradily: {
 },
 anorith: {
 	learnset: {
+		accelerock: ["8M"],
+		uturn: ["8M"],
+		firstimpression: ["8M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		ancientpower: ["8L16", "7L21", "6L21", "5L31", "4T", "4L31", "3L37"],
 		aquajet: ["8E", "7E", "6E"],
@@ -43520,6 +43524,9 @@ anorith: {
 },
 armaldo: {
 	learnset: {
+		accelerock: ["8M"],
+		uturn: ["8M"],
+		firstimpression: ["8M"],
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		ancientpower: ["8L16", "7L21", "6L21", "5L31", "4T", "4L31", "3L37"],
 		aquatail: ["7T", "6T", "5T", "4T"],
@@ -79076,6 +79083,7 @@ wimpod: {
 golisopod: {
 	learnset: {
 		uturn: ["8M"],
+		icespinner: ["8M"],
 		recover: ["8M"],
 		earthquake: ["8M"],
 		stoneedge: ["8M"],
