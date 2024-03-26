@@ -19,6 +19,78 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 
+
+	////////////SV OU Rebalanced///////////////////////////////////////////////////////////////////
+	
+	{
+		section: "SV Rebalanced",
+	},
+
+	{
+			name: "[Gen 9] Rebalanced OU",
+
+			mod: 'gen9rebalanced',
+			ruleset: ['Standard', 'Terastal Clause'],
+			banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass',
+					'Quick Draw', 'Quick Claw', 'Focus Band', 'Shed Tail', 'Light Clay', 'Dark Void', 'Soul Dew'],
+	},
+	{
+		name: "[Gen 9] Rebalanced National Dex",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">National Dex Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9rebalanced',
+		ruleset: ['Standard NatDex', 'Terastal Clause', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
+		banlist: [
+			'ND Uber', 'ND AG', 'Assist', 'Baton Pass', 'Shed Tail', 'Arena Trap', 'Shadow Tag', 'Quick Draw',
+			'King\'s Rock', 'Quick Claw', 'Focus Band', 'Soul Dew', 'Dark Void'
+		],
+	},
+	{
+			name: "[Gen 9] Rebalanced Ubers",
+			threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3710870/">Ubers Metagame Discussion</a>`,
+			],
+
+			mod: 'gen9rebalanced',
+			ruleset: ['Standard', 'Terastal Clause'],
+			banlist: ['AG', 'King\'s Rock', 'Baton Pass'],
+	},
+
+	{
+		name: "[Gen 9] Rebalanced UU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3713709/">UU Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9rebalanced',
+		ruleset: ['[Gen 9] Rebalanced OU'],
+		banlist: ['OU', 'UUBL'],
+	},
+
+	{
+		name: "[Gen 9] Rebalanced RU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3713711/">RU Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9rebalanced',
+		ruleset: ['[Gen 9] Rebalanced UU'],
+		banlist: ['UU', 'RUBL', 'Drizzle'],
+	},
+
+	{
+		name: "[Gen 9] Rebalanced NU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3715408/">NU Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9rebalanced',
+		ruleset: ['[Gen 9] Rebalanced RU'],
+		banlist: ['RU', 'NUBL', 'Drought'],
+	},
+///END OF REBALANCED///
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
